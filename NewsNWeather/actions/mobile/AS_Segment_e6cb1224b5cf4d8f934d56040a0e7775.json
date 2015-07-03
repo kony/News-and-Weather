@@ -1,0 +1,15 @@
+{
+	"AS_Segment_e6cb1224b5cf4d8f934d56040a0e7775": {
+		"id": "AS_Segment_e6cb1224b5cf4d8f934d56040a0e7775",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET__d1bd00d4a402458a92a28cc5e4cded04",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "newsDetails(\"frmNews\");",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

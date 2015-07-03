@@ -1,0 +1,226 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_rowTemplateId": "CopyFBox005bd0cb50d4044",
+    "_top_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "autogrowMode": 1,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "counter": "09",
+    "dataWithoutSections": [
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Top Stories"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "World"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "U.S."
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Business"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Technology"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Entertainment"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Sports"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Science"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Health"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Local"
+            }
+        }
+    ],
+    "enabled": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedTemplate": "CopyFBox005bd0cb50d4044",
+    "generatedtemplate": "CopyFBox005bd0cb50d4044",
+    "groupCells": false,
+    "groupcells": false,
+    "hasSections": false,
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "id": "SegNewsOptions",
+    "indicator": "none",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "e0bfb6525cf24d788ab5fc0197512739",
+    "left": {
+        "type": "string",
+        "value": "5%"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.SegmentedUI2",
+    "needPageIndicator": true,
+    "needpageindicator": true,
+    "onRowClick": "AS_Segment_e4022b4aa36d4740863840ed18e8eb70",
+    "onrowclick": "AS_Segment_e4022b4aa36d4740863840ed18e8eb70",
+    "orientation": 2,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "pageOffDotImage": "pageOffDot.png",
+    "pageOnDotImage": "pageOnDot.png",
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flexMenuContainer",
+    "pf": "frmNews",
+    "platforms": {
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.container.psp.segment2.IPhoneSegment2PSP",
+                "indicator": "rowselect"
+            }
+        }
+    },
+    "render": true,
+    "retainSelection": false,
+    "retainselection": false,
+    "rowFocusSkin": "seg2Focus",
+    "rowSkin": "seg2Normal",
+    "rowTemplateId": "CopyFBox005bd0cb50d4044",
+    "rowcounter": 9,
+    "rowfocusskin": "seg2Focus",
+    "rowskin": "seg2Normal",
+    "rowtemplate": "CopyFBox005bd0cb50d4044",
+    "screenLevelWidget": false,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderSkin": "sliPhoneSegmentHeader",
+    "sectionheaderskin": "sliPhoneSegmentHeader",
+    "selectedIndex": null,
+    "selectedIndices": null,
+    "selectedItems": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionBehavior": "default",
+    "selectionbehavior": "default",
+    "separatorColor": "64646400",
+    "separatorRequired": true,
+    "separatorThickness": 1,
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showScrollbars": false,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 640,
+        "widthRatio": 0
+    },
+    "top": {
+        "type": "string",
+        "value": "7%"
+    },
+    "viewType": "tableview",
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetAlignment": 5,
+    "widgetDataMap": {
+        "Label026fe6344457c4d": "Label026fe6344457c4d"
+    },
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Label026fe6344457c4d": "Label026fe6344457c4d"
+    },
+    "width": {
+        "type": "string",
+        "value": "95%"
+    }
+}

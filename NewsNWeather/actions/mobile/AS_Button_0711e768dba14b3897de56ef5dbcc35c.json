@@ -1,0 +1,15 @@
+{
+	"AS_Button_0711e768dba14b3897de56ef5dbcc35c": {
+		"id": "AS_Button_0711e768dba14b3897de56ef5dbcc35c",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET__845e619b1af34657aadac4357b1eff40",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "destroyForm();",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

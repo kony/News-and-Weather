@@ -1,0 +1,250 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_rowTemplateId": "flexContainer15885142771",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowMode": 0,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "AdvancedWidgetsSegements",
+        "templateType": "segments",
+        "topLevelBox": false
+    },
+    "counter": "00",
+    "dataWithoutSections": [
+        {
+            "imgNews": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "richTextDesc": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "RichText"
+            }
+        }
+    ],
+    "enabled": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedTemplate": "flexContainer15885142771",
+    "generatedtemplate": "flexContainer15885142771",
+    "groupCells": false,
+    "groupcells": false,
+    "hasSections": false,
+    "height": {
+        "type": "string",
+        "value": "100%"
+    },
+    "id": "segmentNews",
+    "ide_onRowClick": "frmNews_segmentNews_onRowClick_seq0",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "a2dad9f329cb4220976b53e4063da266",
+    "layoutAlignment": 3,
+    "layoutalignment": 3,
+    "left": {
+        "type": "string",
+        "value": "0%"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "name": "kony.ui.SegmentedUI2",
+    "needPageIndicator": true,
+    "needpageindicator": true,
+    "onPull": null,
+    "onRowClick": "AS_Segment_e6cb1224b5cf4d8f934d56040a0e7775",
+    "onTouchMove": "AS_Segment_09f6c452e9e442df98e3f647e76e1b1c",
+    "onTouchStart": "AS_Segment_2710b8efc13c40e287f0dc09d6cc8850",
+    "onpull": null,
+    "onrowclick": "AS_Segment_e6cb1224b5cf4d8f934d56040a0e7775",
+    "ontouchmove": "AS_Segment_09f6c452e9e442df98e3f647e76e1b1c",
+    "ontouchstart": "AS_Segment_2710b8efc13c40e287f0dc09d6cc8850",
+    "orientation": 2,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "pageOffDotImage": "pageOffDot.png",
+    "pageOnDotImage": "pageOnDot.png",
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexNewsContainer",
+    "pf": "frmNews",
+    "platforms": {
+        "android": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.AndroidSegment2Property",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.container.psp.segment2.AndroidSegment2PSP",
+                "dockSectionHeaders": false
+            },
+            "render": true,
+            "viewConfig": {
+                "coverflowConfig": {
+                    "isCircular": true,
+                    "projectionAngle": 60
+                }
+            },
+            "viewType": "tableview"
+        },
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.container.psp.segment2.IPhoneSegment2PSP",
+                "bounces": true,
+                "editStyle": "none",
+                "enableDictionary": false,
+                "indicator": "rowselect",
+                "progressIndicatorColor": "white",
+                "searchCriteria": 1,
+                "showProgressIndicator": true
+            },
+            "render": true,
+            "viewConfig": {
+                "coverflowConfig": {}
+            },
+            "viewType": "tableview"
+        },
+        "spa": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.SPASegment2Property"
+        },
+        "spaan": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.SPAAndroidSegment2Property",
+            "render": true
+        },
+        "spabb": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.SPABBSegment2Property",
+            "render": true
+        },
+        "spaip": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.SPAIPhoneSegment2Property",
+            "render": true
+        },
+        "spawinphone8": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.SPAWinPhone8Segment2Property",
+            "render": true
+        },
+        "winphone8": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.WinPhone8Segment2Property",
+            "render": true
+        }
+    },
+    "render": true,
+    "retainSelection": false,
+    "retainselection": false,
+    "rowFocusSkin": "seg2Focus",
+    "rowSkin": "seg2Normal",
+    "rowTemplateId": "flexContainer15885142771",
+    "rowcounter": 0,
+    "rowfocusskin": "seg2Focus",
+    "rowskin": "seg2Normal",
+    "rowtemplate": "flexContainer15885142771",
+    "screenLevelWidget": false,
+    "screenlevelwidget": false,
+    "scrollingEvents": false,
+    "scrollingevents": false,
+    "seccounter": 0,
+    "sectionHeaderSkin": "sliPhoneSegmentHeader",
+    "sectionheaderskin": "sliPhoneSegmentHeader",
+    "selectedIndex": null,
+    "selectedIndices": null,
+    "selectedItems": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionBehavior": "default",
+    "selectionBehaviorConfig": {},
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": {},
+    "separatorColor": "64646400",
+    "separatorRequired": true,
+    "separatorThickness": 1,
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showScrollbars": false,
+    "showscrollbars": false,
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPABBNTHSegment2Property",
+        "render": true
+    },
+    "top": {
+        "type": "string",
+        "value": "0%"
+    },
+    "viewType": "tableview",
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetAlignment": 5,
+    "widgetDataMap": {
+        "imgNews": "imgNews",
+        "lblTitle": "lblTitle",
+        "richTextDesc": "richTextDesc"
+    },
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "imgNews": "imgNews",
+        "lblTitle": "lblTitle",
+        "richTextDesc": "richTextDesc"
+    },
+    "width": {
+        "type": "string",
+        "value": "100%"
+    },
+    "zIndex": 1,
+    "zindex": 1
+}

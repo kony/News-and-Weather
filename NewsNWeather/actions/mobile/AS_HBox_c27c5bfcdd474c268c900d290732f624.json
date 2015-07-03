@@ -1,0 +1,15 @@
+{
+	"AS_HBox_c27c5bfcdd474c268c900d290732f624": {
+		"id": "AS_HBox_c27c5bfcdd474c268c900d290732f624",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET__0187da9ce25d48eda019a4043b05343e",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "//alert(\"hbox clicked\");\nfrmNews.show();",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

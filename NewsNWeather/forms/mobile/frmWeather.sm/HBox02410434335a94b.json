@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizHBox",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_position_": 1,
+    "_skin_": "sknHboxKonyThemeTitle",
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "Button0d9c29578f0ff4d",
+        "lblFrmWeatherTitle1",
+        "CopyButton0d476c53a6fa648"
+    ],
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contextmenu": null,
+    "enabled": false,
+    "id": "HBox02410434335a94b",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "994e87826b1442fdaa9a80489c29002e",
+    "layoutType": 0,
+    "layouttype": 0,
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Box",
+    "onClick": "AS_HBox_c27c5bfcdd474c268c900d290732f624",
+    "onclick": "AS_HBox_c27c5bfcdd474c268c900d290732f624",
+    "orientation": 1,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "frmWeather",
+    "percent": true,
+    "pf": "frmWeather",
+    "platforms": {},
+    "position": 1,
+    "render": true,
+    "skin": "sknHboxKonyThemeTitle",
+    "wType": "HBox",
+    "widgetAlignment": 1,
+    "widgetalignment": 1
+}

@@ -1,0 +1,158 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "slImage",
+    "_src_": "login_pass_icon.png",
+    "_top_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "12%"
+    },
+    "accessibilityConfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmLogin",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "enabled": false,
+    "hExpand": false,
+    "height": {
+        "type": "string",
+        "value": "50%"
+    },
+    "hexpand": false,
+    "id": "CopyImage0af066160e23940",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "0af3502487734b69a47f655301dc8948",
+    "left": {
+        "type": "string",
+        "value": "3%"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "name": "kony.ui.Image2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "CopyFlexContainer01ad200c89c3d48",
+    "pf": "frmLogin",
+    "platforms": {
+        "android": {
+            "@class": "com.kony.gen.viz.model.component.property.image2.AndroidImage2Property",
+            "render": true
+        },
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.component.property.image2.IPhoneImage2Property",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.component.psp.image2.IPhoneImage2PSP",
+                "glossyEffect": 0
+            },
+            "render": true
+        },
+        "spa": {
+            "@class": "com.kony.gen.viz.model.component.property.image2.SPAImage2Property"
+        },
+        "spaan": {
+            "@class": "com.kony.gen.viz.model.component.property.image2.SPAAndroidImage2Property",
+            "render": true
+        },
+        "spabb": {
+            "@class": "com.kony.gen.viz.model.component.property.image2.SPABBImage2Property",
+            "render": true
+        },
+        "spaip": {
+            "@class": "com.kony.gen.viz.model.component.property.image2.SPAIPhoneImage2Property",
+            "render": true
+        },
+        "spawinphone8": {
+            "@class": "com.kony.gen.viz.model.component.property.image2.SPAWinPhone8Image2Property",
+            "render": true
+        },
+        "winphone8": {
+            "@class": "com.kony.gen.viz.model.component.property.image2.WinPhone8Image2Property",
+            "render": true
+        }
+    },
+    "render": true,
+    "skin": "slImage",
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPABBNTHImage2Property",
+        "render": true
+    },
+    "src": "login_pass_icon.png",
+    "srcType": 1,
+    "text": "login_pass_icon.png",
+    "top": {
+        "type": "string",
+        "value": "25%"
+    },
+    "vExpand": false,
+    "vexpand": false,
+    "wType": "Image",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": {
+        "type": "string",
+        "value": "12%"
+    },
+    "zIndex": 1,
+    "zindex": 1
+}

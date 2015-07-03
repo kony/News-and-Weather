@@ -1,0 +1,13 @@
+{
+	"AS_Button_a68ae37990294da98e10ec45af8432c7": {
+		"id": "AS_Button_a68ae37990294da98e10ec45af8432c7",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET_onClick_54133c4f97254a249172f0c999596456",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "getNews(\"s\");"
+			}
+		]
+	}
+}

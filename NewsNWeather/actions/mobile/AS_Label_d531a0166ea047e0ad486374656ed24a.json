@@ -1,0 +1,13 @@
+{
+	"AS_Label_d531a0166ea047e0ad486374656ed24a": {
+		"id": "AS_Label_d531a0166ea047e0ad486374656ed24a",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET_onTouchStart_10cbe1d16a804d2882cd74d277acb309",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": null
+			}
+		]
+	}
+}

@@ -1,0 +1,156 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizBrowser",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "93%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_type_": 3,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerHeightReference": 1,
+    "containerWeight": 100,
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "detectTelNumber": true,
+    "detecttelnumber": true,
+    "enableZoom": false,
+    "enabled": false,
+    "enablezoom": false,
+    "hExpand": true,
+    "height": {
+        "type": "string",
+        "value": "93%"
+    },
+    "hexpand": true,
+    "htmlString": "",
+    "htmlstring": "",
+    "id": "browserNews",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "34505bae139c4255b6fe65ac9782c2f6",
+    "left": {
+        "type": "string",
+        "value": "0%"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "method": "get",
+    "name": "kony.ui.Browser",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "frmBrowser",
+    "pf": "frmBrowser",
+    "platforms": {
+        "android": {
+            "@class": "com.kony.gen.viz.model.component.property.browser.AndroidBrowserProperty",
+            "enableZoom": false,
+            "render": true,
+            "screenLevelWidget": false
+        },
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.component.property.browser.IPhoneBrowserProperty",
+            "detectTelNumber": true,
+            "enableZoom": false,
+            "render": true,
+            "screenLevelWidget": false
+        },
+        "spa": {
+            "@class": "com.kony.gen.viz.model.component.property.browser.SPABrowserProperty"
+        },
+        "spaan": {
+            "@class": "com.kony.gen.viz.model.component.property.browser.SPAAndroidBrowserProperty",
+            "render": true
+        },
+        "spabb": {
+            "@class": "com.kony.gen.viz.model.component.property.browser.SPABBBrowserProperty",
+            "render": true
+        },
+        "spaip": {
+            "@class": "com.kony.gen.viz.model.component.property.browser.SPAIPhoneBrowserProperty",
+            "render": true
+        },
+        "spawinphone8": {
+            "@class": "com.kony.gen.viz.model.component.property.browser.SPAWinPhone8BrowserProperty",
+            "render": true
+        },
+        "winphone8": {
+            "@class": "com.kony.gen.viz.model.component.property.browser.WinPhone8BrowserProperty",
+            "render": true,
+            "screenLevelWidget": false
+        }
+    },
+    "render": true,
+    "requestURLConfig": {
+        "URL": "",
+        "requestMethod": "get"
+    },
+    "requesturlconfig": {
+        "URL": "",
+        "requestMethod": "get"
+    },
+    "screenLevelWidget": false,
+    "screenlevelwidget": false,
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.browser.SPABBNTHBrowserProperty",
+        "render": true
+    },
+    "text": "Browser",
+    "top": {
+        "type": "string",
+        "value": "7%"
+    },
+    "type": 3,
+    "url": "",
+    "vExpand": false,
+    "vexpand": false,
+    "wType": "Browser",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": {
+        "type": "string",
+        "value": "100%"
+    },
+    "zIndex": 1,
+    "zindex": 1
+}

@@ -1,0 +1,94 @@
+{
+    "@class": "com.kony.gen.skin.model.KVizSkin",
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": "00000000",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "font_color": "ffffff00",
+    "font_name": "",
+    "font_size": 120,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "isDefaultSkin": false,
+    "kuid": "s231c8fba00144bba5ac6e14a8191b4d",
+    "platforms": {
+        "android": {
+            "@class": "com.kony.gen.skin.model.KVizAndroidSkin",
+            "font_name": "Helvetica",
+            "wType": "CheckBoxGroup"
+        },
+        "desktopweb": {
+            "@class": "com.kony.gen.skin.model.KVizDesktopWebSkin",
+            "font_name": "Helvetica",
+            "wType": "CheckBoxGroup"
+        },
+        "ipad": {
+            "@class": "com.kony.gen.skin.model.KVizIPadSkin",
+            "font_name": "Helvetica",
+            "wType": "CheckBoxGroup"
+        },
+        "iphone": {
+            "@class": "com.kony.gen.skin.model.KVizIPhoneSkin",
+            "font_name": "HelveticaNeue-Light",
+            "wType": "CheckBoxGroup"
+        },
+        "kiosk": {
+            "@class": "com.kony.gen.skin.model.KVizKioskSkin",
+            "font_name": "GenericMonospace",
+            "wType": "CheckBoxGroup"
+        },
+        "spaan": {
+            "@class": "com.kony.gen.skin.model.KVizSPAAndroidSkin",
+            "font_name": "Helvetica",
+            "wType": "CheckBoxGroup"
+        },
+        "spaandroidtablet": {
+            "@class": "com.kony.gen.skin.model.KVizSPAAndroidTabletSkin",
+            "font_name": "Helvetica",
+            "wType": "CheckBoxGroup"
+        },
+        "spabb": {
+            "@class": "com.kony.gen.skin.model.KVizSPABBSkin",
+            "font_name": "Helvetica",
+            "wType": "CheckBoxGroup"
+        },
+        "spaip": {
+            "@class": "com.kony.gen.skin.model.KVizSPAIPhoneSkin",
+            "font_name": "Helvetica",
+            "wType": "CheckBoxGroup"
+        },
+        "spaipad": {
+            "@class": "com.kony.gen.skin.model.KVizSPAIPadSkin",
+            "font_name": "Helvetica",
+            "wType": "CheckBoxGroup"
+        },
+        "spawindowstablet": {
+            "@class": "com.kony.gen.skin.model.KVizSPAWindowsTabletSkin",
+            "font_name": "Helvetica",
+            "wType": "CheckBoxGroup"
+        },
+        "spawinphone8": {
+            "@class": "com.kony.gen.skin.model.KVizSPAWinPhone8Skin",
+            "font_name": "Helvetica",
+            "wType": "CheckBoxGroup"
+        },
+        "tabrcandroid": {
+            "@class": "com.kony.gen.skin.model.KVizAndroidTabletSkin",
+            "font_name": "Helvetica",
+            "wType": "CheckBoxGroup"
+        },
+        "windows8": {
+            "@class": "com.kony.gen.skin.model.KVizWindows8Skin",
+            "font_name": "GenericMonospace",
+            "wType": "CheckBoxGroup"
+        },
+        "winphone8": {
+            "@class": "com.kony.gen.skin.model.KVizWinPhone8Skin",
+            "font_name": "GenericMonospace",
+            "wType": "CheckBoxGroup"
+        }
+    },
+    "wType": "CheckBoxGroup"
+}

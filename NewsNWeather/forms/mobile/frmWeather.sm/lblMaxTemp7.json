@@ -1,0 +1,149 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_skin_": "noSkinLabel",
+    "_text_": "Label",
+    "accessibilityConfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "enabled": false,
+    "hExpand": true,
+    "hexpand": true,
+    "id": "lblMaxTemp7",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "836bdc2b7d9140d8bad46aefe449471b",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "name": "kony.ui.Label",
+    "padding": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "vboxDay7",
+    "pf": "frmWeather",
+    "platforms": {
+        "android": {
+            "@class": "com.kony.gen.viz.model.component.property.label.AndroidLabelProperty",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.component.psp.label.AndroidLabelPSP",
+                "textCopyable": false
+            },
+            "render": true
+        },
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
+            "_margin_": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "margin": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "marginInPixel": true,
+            "psp": {
+                "@class": "com.kony.gen.viz.model.component.psp.label.IPhoneLabelPSP",
+                "pasteboardType": 2,
+                "textCopyable": false
+            },
+            "render": true
+        },
+        "spa": {
+            "@class": "com.kony.gen.viz.model.component.property.label.SPALabelProperty",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.component.psp.label.SPALabelPSP",
+                "textCopyable": false
+            }
+        },
+        "spaan": {
+            "@class": "com.kony.gen.viz.model.component.property.label.SPAAndroidLabelProperty",
+            "render": true
+        },
+        "spabb": {
+            "@class": "com.kony.gen.viz.model.component.property.label.SPABBLabelProperty",
+            "render": true
+        },
+        "spaip": {
+            "@class": "com.kony.gen.viz.model.component.property.label.SPAIPhoneLabelProperty",
+            "render": true
+        },
+        "spawinphone8": {
+            "@class": "com.kony.gen.viz.model.component.property.label.SPAWinPhone8LabelProperty",
+            "render": true
+        },
+        "winphone8": {
+            "@class": "com.kony.gen.viz.model.component.property.label.WinPhone8LabelProperty",
+            "_margin_": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "margin": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "marginInPixel": true,
+            "render": true
+        }
+    },
+    "render": true,
+    "skin": "noSkinLabel",
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPABBNTHLabelProperty",
+        "render": true
+    },
+    "text": "Label",
+    "toolTip": "",
+    "tooltip": "",
+    "vExpand": false,
+    "vexpand": false,
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "widgetalignment": 5
+}

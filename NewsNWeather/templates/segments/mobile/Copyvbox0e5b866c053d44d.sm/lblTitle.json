@@ -1,0 +1,151 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "CopyslLabel0cf9679339ab343",
+    "_text_": "Label",
+    "accessibilityConfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerId": true,
+    "containerWeight": 96,
+    "containerweight": 96,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "enabled": false,
+    "hExpand": false,
+    "hexpand": false,
+    "id": "lblTitle",
+    "info": null,
+    "isSegmentChild": true,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "p2kwiet158657408045025",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "name": "kony.ui.Label",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "vbox158657408089493",
+    "pf": "Copyvbox0e5b866c053d44d",
+    "platforms": {
+        "android": {
+            "@class": "com.kony.gen.viz.model.component.property.label.AndroidLabelProperty",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.component.psp.label.AndroidLabelPSP",
+                "textCopyable": false
+            },
+            "render": true
+        },
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
+            "_margin_": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "margin": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "marginInPixel": true,
+            "psp": {
+                "@class": "com.kony.gen.viz.model.component.psp.label.IPhoneLabelPSP",
+                "pasteboardType": 2,
+                "textCopyable": false
+            },
+            "render": true
+        },
+        "spa": {
+            "@class": "com.kony.gen.viz.model.component.property.label.SPALabelProperty",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.component.psp.label.SPALabelPSP",
+                "textCopyable": false
+            }
+        },
+        "spaan": {
+            "@class": "com.kony.gen.viz.model.component.property.label.SPAAndroidLabelProperty",
+            "render": true
+        },
+        "spabb": {
+            "@class": "com.kony.gen.viz.model.component.property.label.SPABBLabelProperty",
+            "render": true
+        },
+        "spaip": {
+            "@class": "com.kony.gen.viz.model.component.property.label.SPAIPhoneLabelProperty",
+            "render": true
+        },
+        "spawinphone8": {
+            "@class": "com.kony.gen.viz.model.component.property.label.SPAWinPhone8LabelProperty",
+            "render": true
+        },
+        "winphone8": {
+            "@class": "com.kony.gen.viz.model.component.property.label.WinPhone8LabelProperty",
+            "_margin_": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "margin": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "marginInPixel": true,
+            "render": true
+        }
+    },
+    "render": true,
+    "skin": "CopyslLabel0cf9679339ab343",
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPABBNTHLabelProperty",
+        "render": true
+    },
+    "text": "Label",
+    "toolTip": "",
+    "tooltip": "",
+    "vExpand": false,
+    "vexpand": false,
+    "wType": "Label",
+    "widgetAlignment": 4,
+    "widgetalignment": 4
+}

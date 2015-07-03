@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="NewsNWeather" name="NewsNWeather">
+    <container isflex="false" displayname="Form" id="frmBrowser" type="form"/>
+    <container isflex="false" displayname="Form" id="frmLogin" type="form">
+        <component displayname="TextBox2" id="txtBoxUserName" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxPassword" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmNews" type="form"/>
+    <container isflex="false" displayname="Form" id="frmSplash" type="form"/>
+    <container isflex="false" displayname="Form" id="frmWeather" type="form"/>
+    <container isflex="false" displayname="Form" id="frmWeather2" type="form"/>
+    <globalsequences/>
+    <skins/>
+</application>

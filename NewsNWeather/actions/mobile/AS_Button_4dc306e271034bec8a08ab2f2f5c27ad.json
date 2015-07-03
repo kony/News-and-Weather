@@ -1,0 +1,14 @@
+{
+	"AS_Button_4dc306e271034bec8a08ab2f2f5c27ad": {
+		"id": "AS_Button_4dc306e271034bec8a08ab2f2f5c27ad",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET_onClick_aa19670ac20b430080154eb927881f4c",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "menuToggle();",
+				"callbackType": null
+			}
+		]
+	}
+}

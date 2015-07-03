@@ -1,0 +1,182 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollBox",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        2,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_position_": 3,
+    "_skin_": "CopynoSkinScrollBox075d5f3379fa24c",
+    "accessibilityConfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "vboxDay1",
+        "vboxDay2",
+        "vboxDay3",
+        "vboxDay4",
+        "vboxDay5",
+        "vboxDay6",
+        "vboxDay7"
+    ],
+    "containerHeightReference": 1,
+    "containerWeight": 100,
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "enableScrollByPage": false,
+    "enabled": false,
+    "enablescrollbypage": false,
+    "id": "scrollboxWeather",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "29512147d97a499ea90c782b4b9f2351",
+    "layoutAlignment": 3,
+    "layoutalignment": 3,
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "name": "kony.ui.ScrollBox",
+    "orientation": 1,
+    "padding": [
+        2,
+        0,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "frmWeather",
+    "percent": true,
+    "pf": "frmWeather",
+    "platforms": {
+        "android": {
+            "@class": "com.kony.gen.viz.model.container.property.scrollbox.AndroidScrollBoxProperty",
+            "_position_": 3,
+            "enableScrollByPage": false,
+            "position": 3,
+            "render": true,
+            "showScrollbars": true,
+            "undefined": false
+        },
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.container.property.scrollbox.IPhoneScrollBoxProperty",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_position_": 3,
+            "enableScrollByPage": false,
+            "margin": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "marginInPixel": false,
+            "position": 3,
+            "psp": {
+                "@class": "com.kony.gen.viz.model.container.psp.scrollbox.IPhoneScrollBoxPSP",
+                "bounces": true
+            },
+            "render": true,
+            "showScrollbars": true,
+            "undefined": false
+        },
+        "spa": {
+            "@class": "com.kony.gen.viz.model.container.property.scrollbox.SPAScrollBoxProperty",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.container.psp.scrollbox.SPAScrollBoxPSP",
+                "scrollArrowConfig": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "spaan": {
+            "@class": "com.kony.gen.viz.model.container.property.scrollbox.SPAAndroidScrollBoxProperty",
+            "render": true
+        },
+        "spabb": {
+            "@class": "com.kony.gen.viz.model.container.property.scrollbox.SPABBScrollBoxProperty",
+            "render": true
+        },
+        "spaip": {
+            "@class": "com.kony.gen.viz.model.container.property.scrollbox.SPAIPhoneScrollBoxProperty",
+            "render": true
+        },
+        "spawinphone8": {
+            "@class": "com.kony.gen.viz.model.container.property.scrollbox.SPAWinPhone8ScrollBoxProperty",
+            "render": true
+        },
+        "winphone8": {
+            "@class": "com.kony.gen.viz.model.container.property.scrollbox.WinPhone8ScrollBoxProperty",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_position_": 3,
+            "margin": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "marginInPixel": false,
+            "position": 3,
+            "render": true
+        }
+    },
+    "position": 3,
+    "render": true,
+    "scrollDirection": 1,
+    "scrollbar": "scrollbar",
+    "scrolldirection": 1,
+    "scrollingEvents": null,
+    "scrollingevents": null,
+    "showScrollbars": true,
+    "showscrollbars": true,
+    "skin": "CopynoSkinScrollBox075d5f3379fa24c",
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollbox.SPABBNTHScrollBoxProperty",
+        "render": true
+    },
+    "templateType": "forms",
+    "totalWt": 154,
+    "wType": "ScrollBox",
+    "widgetAlignment": 1,
+    "widgetalignment": 1
+}

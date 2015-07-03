@@ -1,0 +1,14 @@
+{
+	"AS_Segment_096410123f7c4ed198301d565a09afd2": {
+		"id": "AS_Segment_096410123f7c4ed198301d565a09afd2",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET_onRowClick_32006f3bf1c94c22a8d3c195ca050feb",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "newsDetails(\"frmWeather\");",
+				"callbackType": null
+			}
+		]
+	}
+}

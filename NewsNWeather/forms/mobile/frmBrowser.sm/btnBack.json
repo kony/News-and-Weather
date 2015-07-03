@@ -1,0 +1,101 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "CopysknKonyThemeMenuButton0ead636ba3b674c",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "slButtonGlossRed",
+    "focusskin": "slButtonGlossRed",
+    "height": {
+        "type": "string",
+        "value": "5%"
+    },
+    "id": "btnBack",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "c45692199ea3497392d8e45682ff216d",
+    "left": {
+        "type": "string",
+        "value": "1%"
+    },
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "onClick": "AS_Button_0711e768dba14b3897de56ef5dbcc35c",
+    "onclick": "AS_Button_0711e768dba14b3897de56ef5dbcc35c",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "frmBrowser",
+    "pf": "frmBrowser",
+    "platforms": {
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.component.property.button.IPhoneButtonProperty",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.component.psp.button.IPhoneButtonPSP",
+                "showProgressIndicator": false
+            }
+        }
+    },
+    "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
+    "skin": "CopysknKonyThemeMenuButton0ead636ba3b674c",
+    "text": "",
+    "top": {
+        "type": "string",
+        "value": "1%"
+    },
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "8%"
+    },
+    "zIndex": 5,
+    "zindex": 5
+}

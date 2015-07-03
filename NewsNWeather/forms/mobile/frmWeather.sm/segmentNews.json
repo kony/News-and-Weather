@@ -1,0 +1,231 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_rowTemplateId": "Copyvbox0e5b866c053d44d",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerHeight": 80,
+    "containerHeightReference": 1,
+    "containerWeight": 100,
+    "containerheight": 80,
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "AdvancedWidgetsSegements",
+        "templateType": "segments",
+        "topLevelBox": false
+    },
+    "counter": "00",
+    "dataWithoutSections": [
+        {
+            "imgNews": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "richTextDesc": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "enabled": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedTemplate": "Copyvbox0e5b866c053d44d",
+    "generatedtemplate": "Copyvbox0e5b866c053d44d",
+    "groupCells": false,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segmentNews",
+    "ide_onRowClick": "frmWeather_segmentNews_onRowClick_seq0",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "1677ccfafbdb4841b3ab67753b049927",
+    "layoutAlignment": 3,
+    "layoutalignment": 3,
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "name": "kony.ui.SegmentedUI2",
+    "needPageIndicator": true,
+    "needpageindicator": true,
+    "onRowClick": "AS_Segment_bb6d06b7a3f2437eab100193e9c2b906",
+    "onrowclick": "AS_Segment_bb6d06b7a3f2437eab100193e9c2b906",
+    "orientation": 2,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmWeather",
+    "pf": "frmWeather",
+    "platforms": {
+        "android": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.AndroidSegment2Property",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.container.psp.segment2.AndroidSegment2PSP",
+                "dockSectionHeaders": false
+            },
+            "render": true,
+            "viewConfig": {
+                "coverflowConfig": {
+                    "isCircular": true,
+                    "projectionAngle": 60
+                }
+            },
+            "viewType": "tableview"
+        },
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "margin": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "marginInPixel": false,
+            "psp": {
+                "@class": "com.kony.gen.viz.model.container.psp.segment2.IPhoneSegment2PSP",
+                "bounces": true,
+                "editStyle": "none",
+                "enableDictionary": false,
+                "indicator": "rowselect",
+                "progressIndicatorColor": "white",
+                "searchCriteria": 1,
+                "showProgressIndicator": true
+            },
+            "render": true,
+            "viewConfig": {
+                "coverflowConfig": {}
+            },
+            "viewType": "tableview"
+        },
+        "spa": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.SPASegment2Property"
+        },
+        "spaan": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.SPAAndroidSegment2Property",
+            "render": true
+        },
+        "spabb": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.SPABBSegment2Property",
+            "render": true
+        },
+        "spaip": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.SPAIPhoneSegment2Property",
+            "render": true
+        },
+        "spawinphone8": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.SPAWinPhone8Segment2Property",
+            "render": true
+        },
+        "winphone8": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.WinPhone8Segment2Property",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "margin": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "marginInPixel": false,
+            "render": true
+        }
+    },
+    "render": true,
+    "retainSelection": false,
+    "retainselection": false,
+    "rowFocusSkin": "noSkinSegmentFocus",
+    "rowSkin": "noSkinSegmentRow",
+    "rowTemplateId": "Copyvbox0e5b866c053d44d",
+    "rowcounter": 0,
+    "rowfocusskin": "noSkinSegmentFocus",
+    "rowskin": "noSkinSegmentRow",
+    "rowtemplate": "Copyvbox0e5b866c053d44d",
+    "screenLevelWidget": false,
+    "screenlevelwidget": false,
+    "scrollingEvents": false,
+    "scrollingevents": false,
+    "seccounter": 0,
+    "sectionHeaderSkin": "noSkinSegmentSection",
+    "sectionheaderskin": "noSkinSegmentSection",
+    "selectedIndex": null,
+    "selectedIndices": null,
+    "selectedItems": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionBehavior": "default",
+    "selectionbehavior": "default",
+    "separatorColor": "64646400",
+    "separatorRequired": true,
+    "separatorThickness": 1,
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showScrollbars": false,
+    "showscrollbars": false,
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPABBNTHSegment2Property",
+        "render": true
+    },
+    "viewType": "tableview",
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetAlignment": 1,
+    "widgetDataMap": {
+        "imgNews": "imgNews",
+        "lblTitle": "lblTitle",
+        "richTextDesc": "richTextDesc"
+    },
+    "widgetalignment": 1,
+    "widgetdatamap": {
+        "imgNews": "imgNews",
+        "lblTitle": "lblTitle",
+        "richTextDesc": "richTextDesc"
+    }
+}

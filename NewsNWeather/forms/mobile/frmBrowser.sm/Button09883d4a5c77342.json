@@ -1,0 +1,101 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "slButtonGlossBlue",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "13%"
+    },
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "slButtonGlossBlue",
+    "focusskin": "slButtonGlossBlue",
+    "height": {
+        "type": "string",
+        "value": "7%"
+    },
+    "id": "Button09883d4a5c77342",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "66111600e7cd40d7809a054b6d65171a",
+    "left": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "onClick": "AS_Button_c29c8badc2cf46a58286b4eb4daa6aa0",
+    "onclick": "AS_Button_c29c8badc2cf46a58286b4eb4daa6aa0",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "frmBrowser",
+    "pf": "frmBrowser",
+    "platforms": {
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.component.property.button.IPhoneButtonProperty",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.component.psp.button.IPhoneButtonPSP",
+                "showProgressIndicator": false
+            }
+        }
+    },
+    "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
+    "skin": "slButtonGlossBlue",
+    "text": "",
+    "top": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "13%"
+    },
+    "zIndex": 20,
+    "zindex": 20
+}

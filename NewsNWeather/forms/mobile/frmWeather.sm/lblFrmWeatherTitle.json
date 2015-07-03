@@ -1,0 +1,71 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        1,
+        1,
+        1
+    ],
+    "_skin_": "CopyslLabel033cd654fff5845",
+    "_text_": "Country",
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "enabled": false,
+    "id": "lblFrmWeatherTitle",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "6196e22d23064b84ac8f670feb2329dc",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "name": "kony.ui.Label",
+    "padding": [
+        2,
+        1,
+        1,
+        1
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "frmWeather",
+    "pf": "frmWeather",
+    "platforms": {
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.component.psp.label.IPhoneLabelPSP",
+                "wrapping": 2
+            }
+        }
+    },
+    "render": true,
+    "skin": "CopyslLabel033cd654fff5845",
+    "text": "Country",
+    "toolTip": "",
+    "tooltip": "",
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "wrapping": 2
+}

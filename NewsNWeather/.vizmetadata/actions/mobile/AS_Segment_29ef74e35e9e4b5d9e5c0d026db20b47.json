@@ -1,0 +1,13 @@
+{
+	"AS_Segment_29ef74e35e9e4b5d9e5c0d026db20b47": {
+		"id": "AS_Segment_29ef74e35e9e4b5d9e5c0d026db20b47",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET_onRowClick_120379bea1e843b9aa65a73e78dbd007",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "newsDetails();"
+			}
+		]
+	}
+}
