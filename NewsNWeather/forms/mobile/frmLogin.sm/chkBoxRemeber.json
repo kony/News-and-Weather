@@ -89,6 +89,11 @@
     "parent": "frmLogin",
     "pf": "frmLogin",
     "platforms": {
+        "android": {
+            "@class": "com.kony.gen.viz.model.component.property.checkbox.AndroidCheckBoxProperty",
+            "tickedImage": "check_btn_f.png",
+            "untickedImage": "check_btn.png"
+        },
         "iphone": {
             "@class": "com.kony.gen.viz.model.component.property.checkbox.IPhoneCheckBoxProperty",
             "psp": {

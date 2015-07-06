@@ -2,7 +2,7 @@
     "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "_margin_": [
-        0,
+        2,
         0,
         0,
         0
@@ -45,7 +45,7 @@
     "isvisible": true,
     "kuid": "p2kwiet158657408045023",
     "margin": [
-        0,
+        2,
         0,
         0,
         0

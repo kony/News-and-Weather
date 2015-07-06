@@ -3,9 +3,9 @@
     "DNDConfig": null,
     "_margin_": [
         2,
+        2,
         0,
-        0,
-        0
+        2
     ],
     "_padding_": [
         4,
@@ -23,8 +23,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "slButtonGlossRed",
-    "focusskin": "slButtonGlossRed",
+    "focusSkin": "CopyslButtonGlossBlue087f69d39739440",
+    "focusskin": "CopyslButtonGlossBlue087f69d39739440",
     "id": "Button0d9c29578f0ff4d",
     "info": null,
     "isVisible": true,
@@ -32,9 +32,9 @@
     "kuid": "be6d3c571e024290b1e3b4c5ed174f45",
     "margin": [
         2,
+        2,
         0,
-        0,
-        0
+        2
     ],
     "marginInPixel": false,
     "margininpixel": false,

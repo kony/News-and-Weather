@@ -14,7 +14,7 @@
         0
     ],
     "_skin_": "CopyslForm00e7d4b145dd848",
-    "_title_": "News",
+    "_title_": "",
     "accessibilityConfig": {
         "a11yHidden": false,
         "a11yHint": "",
@@ -52,7 +52,7 @@
     "currentLocale": null,
     "defaultUnit": 2,
     "defaultunit": 2,
-    "device": "iPhone6",
+    "device": "GalaxyS4",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enableScrolling": true,
@@ -93,7 +93,7 @@
     "paddinginpixel": false,
     "pagingEnabled": false,
     "pagingenabled": false,
-    "platform": "iphone",
+    "platform": "android",
     "platforms": {
         "android": {
             "@class": "com.kony.gen.viz.model.container.property.scrollflexform.AndroidScrollFlexFormProperty",
@@ -189,20 +189,20 @@
             "render": true
         }
     },
-    "prevDevice": "Z10",
-    "prevPlatform": "spabb",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
     "scrolldirection": 2,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "and_GalaxyS4",
     "skin": "CopyslForm00e7d4b145dd848",
     "spabbnth": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.SPABBNTHScrollFlexFormProperty",
         "needAppMenu": true,
         "render": false
     },
-    "title": "News",
+    "title": "",
     "titleBar": true,
     "titleBarModel": {
         "DNDConfig": null,
@@ -219,7 +219,7 @@
             0
         ],
         "_skin_": "sc01a6a31e0c4507826ad9f78492a6c4",
-        "_text_": "News",
+        "_text_": "",
         "_visible_": false,
         "buttonClosureLeftSideView": "",
         "buttonClosureRightSideView": "",
@@ -266,7 +266,7 @@
         "rightTitle": "Edit",
         "righttitle": "Edit",
         "skin": "sc01a6a31e0c4507826ad9f78492a6c4",
-        "text": "News",
+        "text": "",
         "titleBarLeftSideView": "button",
         "titleBarRightSideView": "button",
         "titleClosureLeftSideView": "",

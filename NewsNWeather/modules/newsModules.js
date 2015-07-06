@@ -173,9 +173,19 @@ function newsDetails(frmID){
 	if(frmID==="frmNews"){
   		kony.print("selected indices:-  "+(frmNews.segmentNews.selectedIndices)[0][1]);
   		index=(frmNews.segmentNews.selectedIndices)[0][1];
+       	if(kony.os.deviceInfo().name==="android")
+    		{
+      		index=index[0];
+      		kony.print("\n--android-->");
+    		}
   	}else if(frmID==="frmWeather"){
   		kony.print("selected indices:-  "+(frmWeather.segmentNews.selectedIndices)[0][1]);
   		index=(frmWeather.segmentNews.selectedIndices)[0][1];
+       if(kony.os.deviceInfo().name==="android")
+    	{
+      		index=index[0];
+      		kony.print("\n--android-->");
+    	}
   	}
 	//kony.print("\n index"+JSON.stringify(index));
 	kony.print("\nurl-->"+jsonResponse["news_list"][index]["news_item"]["link"]);
@@ -334,7 +344,13 @@ function showNewsForm(){
 function getNews1(){
   var index=(frmNews.SegNewsOptions.selectedIndices)[0][1];
   kony.print("selected indices:-  "+index);
-  index=parseInt(index);
+  if(kony.os.deviceInfo().name==="android")
+    {
+      index=index[0];
+      kony.print("\n--android-->");
+    }
+  else
+  		index=parseInt(index);
   //kony.print("selected indices:-  "+(frmWeather2.SegNewsOptions.selectedIndices)[0][1]);
   switch(index){
     case 0: getNews("h");break;

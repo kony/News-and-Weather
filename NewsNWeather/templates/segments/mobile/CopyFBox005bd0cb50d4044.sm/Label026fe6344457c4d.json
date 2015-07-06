@@ -98,5 +98,7 @@
         "type": "string",
         "value": "100%"
     },
-    "wrapping": 2
+    "wrapping": 2,
+    "zIndex": 10,
+    "zindex": 10
 }

@@ -1,7 +1,7 @@
 {
     "@class": "com.kony.gen.skin.model.KVizSkin",
     "applicableblockedUIWidget": "Button",
-    "background_color": "ffffffff",
+    "background_color": "ffffff00",
     "bg_type": "one",
     "border_color": "00000000",
     "border_style": "plain",

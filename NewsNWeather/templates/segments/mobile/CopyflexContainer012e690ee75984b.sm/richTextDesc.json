@@ -1,0 +1,157 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "72.0%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_skin_": "CopyslRichText0fd39a122f53943",
+    "_text_": "RichText",
+    "_top_": {
+        "type": "string",
+        "value": "28.0%"
+    },
+    "_wrapping_": 2,
+    "accessibilityConfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerId": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "enabled": false,
+    "hExpand": true,
+    "height": {
+        "type": "string",
+        "value": "72.0%"
+    },
+    "hexpand": true,
+    "id": "richTextDesc",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "54de5a5bd05f41a189dbd1fa813545c1",
+    "left": {
+        "type": "string",
+        "value": "25%"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "name": "kony.ui.RichText",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "CopyflexContainer012e690ee75984b",
+    "pf": "CopyflexContainer012e690ee75984b",
+    "platforms": {
+        "android": {
+            "@class": "com.kony.gen.viz.model.component.property.richtext.AndroidRichTextProperty",
+            "render": true,
+            "undefined": true
+        },
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.component.property.richtext.IPhoneRichTextProperty",
+            "_wrapping_": 2,
+            "render": true,
+            "undefined": true,
+            "wrapping": 2
+        },
+        "spa": {
+            "@class": "com.kony.gen.viz.model.component.property.richtext.SPARichTextProperty"
+        },
+        "spaan": {
+            "@class": "com.kony.gen.viz.model.component.property.richtext.SPAAndroidRichTextProperty",
+            "render": true,
+            "undefined": true
+        },
+        "spabb": {
+            "@class": "com.kony.gen.viz.model.component.property.richtext.SPABBRichTextProperty",
+            "render": true,
+            "undefined": true
+        },
+        "spaip": {
+            "@class": "com.kony.gen.viz.model.component.property.richtext.SPAIPhoneRichTextProperty",
+            "render": true,
+            "undefined": true
+        },
+        "spawinphone8": {
+            "@class": "com.kony.gen.viz.model.component.property.richtext.SPAWinPhone8RichTextProperty",
+            "render": true,
+            "undefined": true
+        },
+        "winphone8": {
+            "@class": "com.kony.gen.viz.model.component.property.richtext.WinPhone8RichTextProperty",
+            "render": true,
+            "undefined": true
+        }
+    },
+    "render": true,
+    "right": {
+        "type": "string",
+        "value": "8%"
+    },
+    "skin": "CopyslRichText0fd39a122f53943",
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPABBNTHRichTextProperty",
+        "render": true,
+        "undefined": true
+    },
+    "text": "RichText",
+    "toolTip": "",
+    "top": {
+        "type": "string",
+        "value": "28.0%"
+    },
+    "vExpand": false,
+    "vexpand": false,
+    "wType": "RichText",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "wrapping": 2,
+    "zIndex": 1,
+    "zindex": 1
+}

@@ -27,7 +27,7 @@
         "android": {
             "@class": "com.kony.gen.skin.model.KVizAndroidSkin",
             "applicableblockedUIWidget": "Button",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "border_color": "ffffff00",
             "border_style": "plain",
@@ -73,7 +73,7 @@
         },
         "desktopweb": {
             "@class": "com.kony.gen.skin.model.KVizDesktopWebSkin",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "bottom_left_border_color": "ffffff00",
             "bottom_left_border_style": "plain",
@@ -108,7 +108,7 @@
         "ipad": {
             "@class": "com.kony.gen.skin.model.KVizIPadSkin",
             "applicableblockedUIWidget": "Button",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "border_color": "ffffff00",
             "border_style": "plain",
@@ -156,7 +156,7 @@
         "iphone": {
             "@class": "com.kony.gen.skin.model.KVizIPhoneSkin",
             "applicableblockedUIWidget": "Button",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "border_color": "ffffff00",
             "border_style": "plain",
@@ -203,7 +203,7 @@
         },
         "kiosk": {
             "@class": "com.kony.gen.skin.model.KVizKioskSkin",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "isForked": true,
             "wType": "Button"
@@ -211,7 +211,7 @@
         "spaan": {
             "@class": "com.kony.gen.skin.model.KVizSPAAndroidSkin",
             "applicableblockedUIWidget": "Button",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "border_color": "ffffff00",
             "border_style": "plain",
@@ -259,7 +259,7 @@
         "spaandroidtablet": {
             "@class": "com.kony.gen.skin.model.KVizSPAAndroidTabletSkin",
             "applicableblockedUIWidget": "Button",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "border_color": "ffffff00",
             "border_style": "plain",
@@ -307,7 +307,7 @@
         "spabb": {
             "@class": "com.kony.gen.skin.model.KVizSPABBSkin",
             "applicableblockedUIWidget": "Button",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "border_color": "ffffff00",
             "border_style": "plain",
@@ -355,7 +355,7 @@
         "spaip": {
             "@class": "com.kony.gen.skin.model.KVizSPAIPhoneSkin",
             "applicableblockedUIWidget": "Button",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "border_color": "ffffff00",
             "border_style": "plain",
@@ -403,7 +403,7 @@
         "spaipad": {
             "@class": "com.kony.gen.skin.model.KVizSPAIPadSkin",
             "applicableblockedUIWidget": "Button",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "border_color": "ffffff00",
             "border_style": "plain",
@@ -451,7 +451,7 @@
         "spawindowstablet": {
             "@class": "com.kony.gen.skin.model.KVizSPAWindowsTabletSkin",
             "applicableblockedUIWidget": "Button",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "border_color": "ffffff00",
             "border_style": "plain",
@@ -499,7 +499,7 @@
         "spawinphone8": {
             "@class": "com.kony.gen.skin.model.KVizSPAWinPhone8Skin",
             "applicableblockedUIWidget": "Button",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "border_color": "ffffff00",
             "border_style": "plain",
@@ -547,7 +547,7 @@
         "tabrcandroid": {
             "@class": "com.kony.gen.skin.model.KVizAndroidTabletSkin",
             "applicableblockedUIWidget": "Button",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "border_color": "ffffff00",
             "border_style": "plain",
@@ -593,14 +593,14 @@
         },
         "windows8": {
             "@class": "com.kony.gen.skin.model.KVizWindows8Skin",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "isForked": true,
             "wType": "Button"
         },
         "winphone8": {
             "@class": "com.kony.gen.skin.model.KVizWinPhone8Skin",
-            "background_image": "menu.png",
+            "background_image": "burgertrans2.png",
             "bg_type": "image",
             "isForked": true,
             "wType": "Button"

@@ -47,7 +47,7 @@
     "contentSizeHeight": 0,
     "contentSizeWidth": 0,
     "currentLocale": null,
-    "device": "iPhone6",
+    "device": "GalaxyS4",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
@@ -98,7 +98,7 @@
     "paddingInPixel": false,
     "paddinginpixel": false,
     "percent": true,
-    "platform": "iphone",
+    "platform": "android",
     "platforms": {
         "android": {
             "@class": "com.kony.gen.viz.model.container.property.form.AndroidFormProperty",
@@ -229,7 +229,7 @@
     "restorewidgetprototypes": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "and_GalaxyS4",
     "skin": "CopysknFormKonyThemeWeather00543fe59ddcd48",
     "spabbnth": {
         "@class": "com.kony.gen.viz.model.container.property.form.SPABBNTHFormProperty",

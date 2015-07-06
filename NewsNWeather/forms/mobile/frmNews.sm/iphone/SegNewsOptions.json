@@ -1,0 +1,316 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_rowTemplateId": "CopyFBox0387de2c35a9342",
+    "_top_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "annotationId": "47ba4bea52b248dbbe25bbbdc45aa35f",
+    "autogrowMode": 1,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "counter": "09",
+    "dataWithoutSections": [
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Top Stories"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "World"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "U.S."
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Business"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Technology"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Entertainment"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Sports"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Science"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Health"
+            }
+        },
+        {
+            "Label026fe6344457c4d": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Local"
+            }
+        }
+    ],
+    "enabled": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedTemplate": "CopyFBox0387de2c35a9342",
+    "generatedtemplate": "CopyFBox0387de2c35a9342",
+    "groupCells": false,
+    "groupcells": false,
+    "hasSections": false,
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "id": "SegNewsOptions",
+    "indicator": "none",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "47ba4bea52b248dbbe25bbbdc45aa35f",
+    "left": {
+        "type": "string",
+        "value": "5%"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.SegmentedUI2",
+    "needPageIndicator": true,
+    "needpageindicator": true,
+    "onRowClick": "AS_Segment_e425ec610390456da8f5c87614b31987",
+    "onrowclick": "AS_Segment_e425ec610390456da8f5c87614b31987",
+    "orientation": 2,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "pageOffDotImage": "pageOffDot.png",
+    "pageOnDotImage": "pageOnDot.png",
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flexMenuContainer",
+    "pf": "frmNews",
+    "platforms": {
+        "iphone": {
+            "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
+            "psp": {
+                "@class": "com.kony.gen.viz.model.container.psp.segment2.IPhoneSegment2PSP",
+                "indicator": "rowselect"
+            }
+        }
+    },
+    "render": true,
+    "retainSelection": false,
+    "retainselection": false,
+    "rowFocusSkin": "seg2Focus",
+    "rowSkin": "seg2Normal",
+    "rowTemplateId": "CopyFBox0387de2c35a9342",
+    "rowcounter": 9,
+    "rowfocusskin": "seg2Focus",
+    "rowskin": "seg2Normal",
+    "rowtemplate": "CopyFBox0387de2c35a9342",
+    "screenLevelWidget": false,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderSkin": "sliPhoneSegmentHeader",
+    "sectionheaderskin": "sliPhoneSegmentHeader",
+    "selectedIndex": null,
+    "selectedIndices": null,
+    "selectedItems": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionBehavior": "default",
+    "selectionbehavior": "default",
+    "separatorColor": "64646400",
+    "separatorRequired": true,
+    "separatorThickness": 1,
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showScrollbars": false,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 640,
+        "widthRatio": 0
+    },
+    "top": {
+        "type": "string",
+        "value": "7%"
+    },
+    "viewType": "tableview",
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetAlignment": 5,
+    "widgetDataMap": {
+        "Label026fe6344457c4d": "Label026fe6344457c4d"
+    },
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Label026fe6344457c4d": "Label026fe6344457c4d"
+    },
+    "widgetsData": {
+        "Label026fe6344457c4d": {
+            "@class": "com.kony.gen.viz.model.component.KVizLabel",
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "0%"
+            },
+            "_margin_": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_skin_": "s30cb8e371d94607b2970ab323267240",
+            "_text_": "Label",
+            "_top_": {
+                "type": "string",
+                "value": "0%"
+            },
+            "_width_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "_wrapping_": 2,
+            "canUpdateUI": true,
+            "containerId": true,
+            "containerWeight": 100,
+            "containerweight": 100,
+            "contentAlignment": 4,
+            "contentalignment": 4,
+            "enabled": false,
+            "height": "100%",
+            "id": "Label026fe6344457c4d",
+            "info": null,
+            "ipad": {
+                "psp": {
+                    "wrapping": 2
+                }
+            },
+            "iphone": {
+                "psp": {
+                    "wrapping": 2
+                }
+            },
+            "isVisible": true,
+            "isvisible": true,
+            "kuid": "dcd084a380ae4100bafc5597256caf8f",
+            "left": "0%",
+            "margin": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "name": "kony.ui.Label",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "parent": "CopyFBox0387de2c35a9342",
+            "pf": "CopyFBox0387de2c35a9342",
+            "render": true,
+            "skin": "s30cb8e371d94607b2970ab323267240",
+            "text": "Label",
+            "toolTip": "",
+            "tooltip": "",
+            "top": "0%",
+            "wType": "Label",
+            "widgetAlignment": 5,
+            "width": "100%",
+            "wrapping": 2,
+            "zIndex": 10,
+            "zindex": 10
+        }
+    },
+    "width": {
+        "type": "string",
+        "value": "95%"
+    }
+}

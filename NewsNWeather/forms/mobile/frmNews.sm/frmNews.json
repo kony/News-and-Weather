@@ -52,7 +52,7 @@
     "currentLocale": null,
     "defaultUnit": 2,
     "defaultunit": 2,
-    "device": "iPhone6",
+    "device": "GalaxyS4",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enableScrolling": true,
@@ -61,6 +61,10 @@
     "enablescrolling": true,
     "footerOverlap": false,
     "footeroverlap": false,
+    "forks": [
+        "iphone",
+        "android"
+    ],
     "headerOverlap": false,
     "headeroverlap": false,
     "horizontalscrollindicator": true,
@@ -93,7 +97,7 @@
     "paddinginpixel": false,
     "pagingEnabled": false,
     "pagingenabled": false,
-    "platform": "iphone",
+    "platform": "spaip",
     "platforms": {
         "android": {
             "@class": "com.kony.gen.viz.model.container.property.scrollflexform.AndroidScrollFlexFormProperty",
@@ -191,12 +195,12 @@
         }
     },
     "prevDevice": "iPhone6",
-    "prevPlatform": "spaip",
+    "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
     "scrolldirection": 2,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "and_GalaxyS4",
     "skin": "sknKonyThemeFormNews",
     "spabbnth": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.SPABBNTHScrollFlexFormProperty",
