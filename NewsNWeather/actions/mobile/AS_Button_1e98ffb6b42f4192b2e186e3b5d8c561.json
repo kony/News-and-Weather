@@ -1,13 +1,11 @@
 {
-	"AS_Button_1e98ffb6b42f4192b2e186e3b5d8c561": {
-		"id": "AS_Button_1e98ffb6b42f4192b2e186e3b5d8c561",
-		"type": "ACTION_SEQUENCE",
-		"actions": [
-			{
-				"id": "ADD_SNIPPET_onClick_6517e2f4523e4a6b8813058175ff9bc0",
-				"type": "ADD_SNIPPET",
-				"codeSnippet": "menuToggle();"
-			}
-		]
-	}
+    "AS_Button_1e98ffb6b42f4192b2e186e3b5d8c561": {
+        "id": "AS_Button_1e98ffb6b42f4192b2e186e3b5d8c561",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET_onClick_6517e2f4523e4a6b8813058175ff9bc0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "menuToggle();"
+        }]
+    }
 }

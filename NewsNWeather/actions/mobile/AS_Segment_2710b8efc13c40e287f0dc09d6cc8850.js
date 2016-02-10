@@ -1,3 +1,1 @@
-function AS_Segment_2710b8efc13c40e287f0dc09d6cc8850() {
-
-}
+function AS_Segment_2710b8efc13c40e287f0dc09d6cc8850(eventobject, x, y) {}

@@ -1,0 +1,16 @@
+{
+    "AS_Button_606b03d7c15449c5bb278c577838fa06": {
+        "id": "AS_Button_606b03d7c15449c5bb278c577838fa06",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "actions": [{
+            "id": "ADD_SNIPPET_onClick_204881511c4e4fb396046acf00968433",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmNews.show();",
+            "callbackType": null
+        }]
+    }
+}

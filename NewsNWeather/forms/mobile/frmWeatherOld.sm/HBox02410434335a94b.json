@@ -1,0 +1,43 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_position_": 1,
+    "_resize_": true,
+    "_skin_": "sa79aead443747b884b700dc0e5da399",
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "Button0d9c29578f0ff4d",
+        "lblFrmWeatherTitle1",
+        "CopyButton0d476c53a6fa648"
+    ],
+    "containerweight": 100,
+    "contextmenu": null,
+    "enabled": false,
+    "id": "HBox02410434335a94b",
+    "info": null,
+    "isvisible": true,
+    "kuid": "994e87826b1442fdaa9a80489c29002e",
+    "layouttype": 0,
+    "name": "kony.ui.Box",
+    "onclick": "AS_HBox_c27c5bfcdd474c268c900d290732f624",
+    "parent": "frmWeatherOld",
+    "pf": "frmWeatherOld",
+    "templateType": "forms",
+    "wType": "HBox",
+    "widgetalignment": 1
+}

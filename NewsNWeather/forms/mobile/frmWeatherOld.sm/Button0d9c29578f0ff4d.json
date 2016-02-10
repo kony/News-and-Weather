@@ -1,0 +1,40 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        2,
+        2,
+        0,
+        2
+    ],
+    "_padding_": [
+        4,
+        0,
+        4,
+        0
+    ],
+    "_skin_": "sfaf4bec6ad1498a9e66bd1105310a39",
+    "_text_": "",
+    "canUpdateUI": true,
+    "containerweight": 10,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sfaf4bec6ad1498a9e66bd1105310a39",
+    "id": "Button0d9c29578f0ff4d",
+    "info": null,
+    "isvisible": true,
+    "kuid": "be6d3c571e024290b1e3b4c5ed174f45",
+    "margininpixel": false,
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_877afe7cf6c74743a66e8b8dc7febbd5",
+    "paddInPixel": [
+        25.6,
+        0,
+        25.6,
+        0
+    ],
+    "paddinginpixel": false,
+    "parent": "HBox02410434335a94b",
+    "pf": "frmWeatherOld",
+    "wType": "Button"
+}

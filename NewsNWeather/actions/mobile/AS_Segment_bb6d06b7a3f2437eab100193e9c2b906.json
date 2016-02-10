@@ -1,14 +1,22 @@
 {
-	"AS_Segment_bb6d06b7a3f2437eab100193e9c2b906": {
-		"id": "AS_Segment_bb6d06b7a3f2437eab100193e9c2b906",
-		"type": "ACTION_SEQUENCE",
-		"actions": [
-			{
-				"id": "ADD_SNIPPET_onRowClick_c188881e72db4bbba2a39d4358d61183",
-				"type": "ADD_SNIPPET",
-				"codeSnippet": "newsDetails(\"frmWeather\");",
-				"callbackType": null
-			}
-		]
-	}
+    "AS_Segment_bb6d06b7a3f2437eab100193e9c2b906": {
+        "id": "AS_Segment_bb6d06b7a3f2437eab100193e9c2b906",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "actions": [{
+            "id": "ADD_SNIPPET_onRowClick_c188881e72db4bbba2a39d4358d61183",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "newsDetails(\"frmWeather\");",
+            "callbackType": null
+        }]
+    }
 }

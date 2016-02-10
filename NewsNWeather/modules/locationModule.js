@@ -9,9 +9,11 @@ function geoPosition()
 	kony.print("\n\n---in geo position---\n\n");
 	function geoSuccessCallBack(position)
 	{
-		lat =position.coords.latitude;
-		lon=position.coords.longitude;
-		if(lat==null)
+		//lat =position.coords.latitude;
+		//lon=position.coords.longitude;
+		lat = 17;
+      	lon = 74;
+      if(lat==null)
 			lat=0;
 		if(lon==null)
 			lon=0;
@@ -36,7 +38,10 @@ function geoPosition()
 	//kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
 	try
  	{
-	 	kony.location.getCurrentPosition(geoSuccessCallBack, geoErrorCallBack,positionoptions);
+      lat = 17;
+      lon = 74;
+      getWeatherForecast();
+	 	//kony.location.getCurrentPosition(geoSuccessCallBack, geoErrorCallBack,positionoptions);
 	}
 	catch(exception)
 	{

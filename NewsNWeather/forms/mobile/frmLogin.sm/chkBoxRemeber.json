@@ -1,7 +1,7 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizCheckBox",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_enabled_": false,
     "_height_": {
         "type": "string",
         "value": "10%"
@@ -16,6 +16,7 @@
         0,
         0
     ],
+    "_orientation_": "vertical",
     "_padding_": [
         0,
         0,
@@ -26,22 +27,26 @@
         "type": "string",
         "value": "-1%"
     },
-    "_skin_": "CopyslCheckBoxGroup0448053d6a8dd49",
+    "_skin_": "s231c8fba00144bba5ac6e14a8191b4d",
     "_top_": {
         "type": "string",
         "value": "62.41%"
     },
-    "canUpdateUI": true,
-    "containerWeight": 100,
-    "containerweight": 100,
-    "dimension": 18,
-    "enabled": false,
-    "groupCells": false,
-    "groupcells": false,
-    "height": {
-        "type": "string",
-        "value": "10%"
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.checkbox.AndroidCheckBoxProperty",
+        "tickedImage": "check_btn_f.png",
+        "untickedImage": "check_btn.png"
     },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "BasicWidgets1",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "enabled": false,
+    "groupcells": false,
     "id": "chkBoxRemeber",
     "info": null,
     "ipad": {
@@ -49,27 +54,15 @@
             "viewType": 4
         }
     },
-    "isVisible": true,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.checkbox.IPhoneCheckBoxProperty",
+        "psp": {
+            "viewType": 4
+        }
+    },
     "isvisible": true,
-    "itemOrientation": "vertical",
     "itemorientation": "vertical",
     "kuid": "2ebbad319207446e944a0f79c7a74977",
-    "left": {
-        "type": "string",
-        "value": "3.69%"
-    },
-    "margin": [
-        0,
-        0,
-        0,
-        0
-    ],
-    "masterData": [
-        [
-            "cbg1",
-            "Remember Me"
-        ]
-    ],
     "masterdata": [
         [
             "cbg1",
@@ -77,56 +70,17 @@
         ]
     ],
     "name": "kony.ui.CheckBoxGroup",
-    "onSelection": "AS_CheckBoxGroup_5292d8b5dcdf4265ac8433e5b756f442",
     "onselection": "AS_CheckBoxGroup_5292d8b5dcdf4265ac8433e5b756f442",
     "orientation": "vertical",
-    "padding": [
-        0,
-        0,
-        0,
-        0
-    ],
     "parent": "frmLogin",
     "pf": "frmLogin",
-    "platforms": {
-        "android": {
-            "@class": "com.kony.gen.viz.model.component.property.checkbox.AndroidCheckBoxProperty",
-            "tickedImage": "check_btn_f.png",
-            "untickedImage": "check_btn.png"
-        },
-        "iphone": {
-            "@class": "com.kony.gen.viz.model.component.property.checkbox.IPhoneCheckBoxProperty",
-            "psp": {
-                "@class": "com.kony.gen.viz.model.component.psp.checkbox.IPhoneCheckBoxPSP",
-                "viewType": 4
-            }
-        }
-    },
-    "render": true,
-    "right": {
-        "type": "string",
-        "value": "-1%"
-    },
-    "selectedKey": null,
-    "selectedKeyValue": null,
-    "selectedKeyValues": null,
-    "selectedKeys": [],
     "selectedkey": null,
     "selectedkeys": [],
     "selectedkeyvalue": null,
     "selectedkeyvalues": null,
     "size": 18,
-    "skin": "CopyslCheckBoxGroup0448053d6a8dd49",
-    "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "62.41%"
-    },
-    "viewType": 0,
     "viewtype": 0,
     "wType": "CheckBoxGroup",
-    "widgetAlignment": 5,
     "widgetalignment": 5,
-    "zIndex": 1,
     "zindex": 1
 }

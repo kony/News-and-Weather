@@ -1,0 +1,34 @@
+{
+    "AS_Segment_e1275644913645bab528847da812f929": {
+        "id": "AS_Segment_e1275644913645bab528847da812f929",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmWeather",
+            "type": "forms",
+            "platform": null,
+            "KUID": "70f30aea743b49a9ad3484b652fe6145"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___8f36fe74a82d4cb7b8c8b43f161051ca",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "newsDetails",
+            "display": "newsDetails",
+            "inputparams": [{
+                "name": "frmID",
+                "value": "\"frmWeather\""
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

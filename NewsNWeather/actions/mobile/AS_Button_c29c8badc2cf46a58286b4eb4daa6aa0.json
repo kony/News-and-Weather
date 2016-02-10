@@ -1,14 +1,16 @@
 {
-	"AS_Button_c29c8badc2cf46a58286b4eb4daa6aa0": {
-		"id": "AS_Button_c29c8badc2cf46a58286b4eb4daa6aa0",
-		"type": "ACTION_SEQUENCE",
-		"actions": [
-			{
-				"id": "ADD_SNIPPET_onClick_60d6acafc4c64d16b281ea35b620454f",
-				"type": "ADD_SNIPPET",
-				"codeSnippet": "destroyForm();",
-				"callbackType": null
-			}
-		]
-	}
+    "AS_Button_c29c8badc2cf46a58286b4eb4daa6aa0": {
+        "id": "AS_Button_c29c8badc2cf46a58286b4eb4daa6aa0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "actions": [{
+            "id": "ADD_SNIPPET_onClick_60d6acafc4c64d16b281ea35b620454f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "destroyForm();",
+            "callbackType": null
+        }]
+    }
 }

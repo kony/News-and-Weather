@@ -1,0 +1,13 @@
+{
+  "applicableblockedUIWidget": "Button",
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "isForked": false,
+  "kuid": "see1412f54164e358b6d02cb0386aa3b",
+  "wType": "FlexContainer"
+}

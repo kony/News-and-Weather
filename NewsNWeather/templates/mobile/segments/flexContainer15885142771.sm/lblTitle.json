@@ -1,0 +1,108 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "28%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_skin_": "s858066b19214ec49593e00d04022972",
+    "_text_": "Label",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.label.AndroidLabelProperty",
+        "psp": {
+            "textCopyable": false
+        },
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "enabled": false,
+    "hexpand": true,
+    "id": "lblTitle",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
+        "psp": {
+            "pasteboardType": 2,
+            "textCopyable": false,
+            "wrapping": 2
+        },
+        "render": true
+    },
+    "isSegmentChild": true,
+    "isvisible": true,
+    "kuid": "f65a84c567ca4ca7a3e66bcbb020ed5f",
+    "margininpixel": false,
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "flexContainer15885142771",
+    "pf": "flexContainer15885142771",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPALabelProperty",
+        "psp": {
+            "textCopyable": false
+        }
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPAAndroidLabelProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPABBLabelProperty",
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPABBNTHLabelProperty",
+        "render": true
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPAIPhoneLabelProperty",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPAWinPhone8LabelProperty",
+        "render": true
+    },
+    "tooltip": "",
+    "vexpand": false,
+    "wType": "Label",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.label.WinPhone8LabelProperty",
+        "render": true
+    },
+    "zindex": 1
+}

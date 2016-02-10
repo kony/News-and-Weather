@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_skin_": "s523cb720849477ea6f242c2b6f21a21",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "platform": "android",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "imgNews",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "472abd2d5e284af29ce92c5c982d9da3",
+    "name": "kony.ui.Image2",
+    "paddinginpixel": false,
+    "parent": "flxLocalNews",
+    "pf": "tempLocalNews",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}

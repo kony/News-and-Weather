@@ -1,15 +1,17 @@
 {
-	"AS_Button_df4111fbcec747019c7ca2215a4266de": {
-		"id": "AS_Button_df4111fbcec747019c7ca2215a4266de",
-		"type": "ACTION_SEQUENCE",
-		"actions": [
-			{
-				"id": "ADD_SNIPPET__539afc0c09a9404bb37614f6a0b0ca51",
-				"type": "ADD_SNIPPET",
-				"codeSnippet": "menuToggle();",
-				"parentId": null,
-				"callbackType": null
-			}
-		]
-	}
+    "AS_Button_df4111fbcec747019c7ca2215a4266de": {
+        "id": "AS_Button_df4111fbcec747019c7ca2215a4266de",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "actions": [{
+            "id": "ADD_SNIPPET__539afc0c09a9404bb37614f6a0b0ca51",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "menuToggle();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
 }

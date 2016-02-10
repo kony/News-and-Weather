@@ -1,0 +1,111 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        10
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s08d9abaa6a540499837793bd4a77045",
+    "_src_": "imagedrag.png",
+    "_text_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.AndroidImage2Property",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "12.81%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "45.45%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "enabled": false,
+    "hexpand": false,
+    "id": "imgNews",
+    "imagescalemode": 1,
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.IPhoneImage2Property",
+        "psp": {
+            "glossyEffect": 0
+        },
+        "render": true
+    },
+    "isSegmentChild": true,
+    "isvisible": true,
+    "kuid": "2b20c44af9014bf39b6cd6accae52875",
+    "margininpixel": false,
+    "name": "kony.ui.Image2",
+    "paddinginpixel": false,
+    "parent": "flexContainer15885142771",
+    "pf": "flexContainer15885142771",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAImage2Property"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAAndroidImage2Property",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPABBImage2Property",
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPABBNTHImage2Property",
+        "render": true
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAIPhoneImage2Property",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAWinPhone8Image2Property",
+        "render": true
+    },
+    "srcType": 1,
+    "vexpand": false,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.WinPhone8Image2Property",
+        "render": true
+    },
+    "zindex": 1
+}

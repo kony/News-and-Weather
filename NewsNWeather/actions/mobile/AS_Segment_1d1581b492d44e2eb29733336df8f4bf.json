@@ -1,13 +1,11 @@
 {
-	"AS_Segment_1d1581b492d44e2eb29733336df8f4bf": {
-		"id": "AS_Segment_1d1581b492d44e2eb29733336df8f4bf",
-		"type": "ACTION_SEQUENCE",
-		"actions": [
-			{
-				"id": "NAMED_ACTION",
-				"type": "NAMED_ACTION",
-				"display": "<>"
-			}
-		]
-	}
+    "AS_Segment_1d1581b492d44e2eb29733336df8f4bf": {
+        "id": "AS_Segment_1d1581b492d44e2eb29733336df8f4bf",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "NAMED_ACTION",
+            "type": "NAMED_ACTION",
+            "display": "<>"
+        }]
+    }
 }

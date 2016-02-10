@@ -1,7 +1,11 @@
 {
-	"AS_Button_26a5b3583292404795c5f5059346e63b": {
-		"id": "AS_Button_26a5b3583292404795c5f5059346e63b",
-		"type": "ACTION_SEQUENCE",
-		"actions": []
-	}
+    "AS_Button_26a5b3583292404795c5f5059346e63b": {
+        "id": "AS_Button_26a5b3583292404795c5f5059346e63b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "actions": []
+    }
 }

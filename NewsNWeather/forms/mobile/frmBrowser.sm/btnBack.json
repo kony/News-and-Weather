@@ -1,7 +1,7 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_enabled_": false,
     "_height_": {
         "type": "string",
         "value": "5%"
@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "CopysknKonyThemeMenuButton0ead636ba3b674c",
+    "_skin_": "s8ccbefc3b7f4fb9af9e56d5098735d4",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -33,69 +33,25 @@
         "value": "8%"
     },
     "canUpdateUI": true,
-    "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
     "contentalignment": 5,
-    "displayText": true,
     "displaytext": true,
-    "enabled": false,
-    "focusSkin": "slButtonGlossRed",
-    "focusskin": "slButtonGlossRed",
-    "height": {
-        "type": "string",
-        "value": "5%"
-    },
+    "focusskin": "s8f9eea5e386478e8ef50069d898a287",
     "id": "btnBack",
     "info": null,
-    "isVisible": true,
-    "isvisible": true,
-    "kuid": "c45692199ea3497392d8e45682ff216d",
-    "left": {
-        "type": "string",
-        "value": "1%"
-    },
-    "margin": [
-        6,
-        6,
-        6,
-        6
-    ],
-    "name": "kony.ui.Button",
-    "onClick": "AS_Button_0711e768dba14b3897de56ef5dbcc35c",
-    "onclick": "AS_Button_0711e768dba14b3897de56ef5dbcc35c",
-    "padding": [
-        0,
-        0,
-        0,
-        0
-    ],
-    "parent": "frmBrowser",
-    "pf": "frmBrowser",
-    "platforms": {
-        "iphone": {
-            "@class": "com.kony.gen.viz.model.component.property.button.IPhoneButtonProperty",
-            "psp": {
-                "@class": "com.kony.gen.viz.model.component.psp.button.IPhoneButtonPSP",
-                "showProgressIndicator": false
-            }
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.button.IPhoneButtonProperty",
+        "psp": {
+            "showProgressIndicator": false
         }
     },
-    "render": true,
-    "showProgressIndicator": false,
+    "isvisible": true,
+    "kuid": "c45692199ea3497392d8e45682ff216d",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_0711e768dba14b3897de56ef5dbcc35c",
+    "parent": "frmBrowser",
+    "pf": "frmBrowser",
     "showprogressindicator": false,
-    "skin": "CopysknKonyThemeMenuButton0ead636ba3b674c",
-    "text": "",
-    "top": {
-        "type": "string",
-        "value": "1%"
-    },
     "wType": "Button",
-    "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "8%"
-    },
-    "zIndex": 5,
     "zindex": 5
 }

@@ -1,6 +1,16 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_margin_": [
         0,
         0,
@@ -13,136 +23,36 @@
         0,
         0
     ],
-    "_skin_": "noSkinImage",
-    "accessibilityConfig": {
-        "a11yHidden": false,
-        "a11yHint": "",
-        "a11yLabel": "",
-        "a11yValue": ""
+    "_skin_": "s523cb720849477ea6f242c2b6f21a21",
+    "_src_": "http://openweathermap.org/img/w/04d.png",
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
     },
-    "accessibilityconfig": {
-        "a11yHidden": false,
-        "a11yHint": "",
-        "a11yLabel": "",
-        "a11yValue": ""
+    "_width_": {
+        "type": "string",
+        "value": "100%"
     },
     "canUpdateUI": true,
-    "channel": "mobile",
-    "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
     "context": {
         "channel": "mobile",
-        "ispercent": true,
+        "formID": "frmWeather",
         "platform": "android",
         "templateType": "forms",
-        "topLevelBox": false
+        "topLevelBox": null
     },
-    "enabled": false,
-    "hExpand": false,
-    "hexpand": false,
     "id": "imgCloud6",
-    "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
-    "isVisible": true,
-    "ispercent": true,
+    "invokedProperty": "src",
     "isvisible": true,
-    "kuid": "6a314083c5ba49c89d9899bf990c69c6",
-    "margin": [
-        0,
-        0,
-        0,
-        0
-    ],
-    "marginInPixel": false,
-    "margininpixel": false,
+    "kuid": "e651827b702449a8bd2761e051a91f1a",
     "name": "kony.ui.Image2",
-    "padding": [
-        0,
-        0,
-        0,
-        0
-    ],
-    "paddingInPixel": false,
-    "paddinginpixel": false,
-    "parent": "vboxDay6",
+    "parent": "CopyflxcWthr00562d5d5f9af46",
     "pf": "frmWeather",
-    "platforms": {
-        "android": {
-            "@class": "com.kony.gen.viz.model.component.property.image2.AndroidImage2Property",
-            "render": true
-        },
-        "iphone": {
-            "@class": "com.kony.gen.viz.model.component.property.image2.IPhoneImage2Property",
-            "_margin_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "margin": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "marginInPixel": false,
-            "psp": {
-                "@class": "com.kony.gen.viz.model.component.psp.image2.IPhoneImage2PSP",
-                "glossyEffect": 0
-            },
-            "render": true
-        },
-        "spa": {
-            "@class": "com.kony.gen.viz.model.component.property.image2.SPAImage2Property"
-        },
-        "spaan": {
-            "@class": "com.kony.gen.viz.model.component.property.image2.SPAAndroidImage2Property",
-            "render": true
-        },
-        "spabb": {
-            "@class": "com.kony.gen.viz.model.component.property.image2.SPABBImage2Property",
-            "render": true
-        },
-        "spaip": {
-            "@class": "com.kony.gen.viz.model.component.property.image2.SPAIPhoneImage2Property",
-            "render": true
-        },
-        "spawinphone8": {
-            "@class": "com.kony.gen.viz.model.component.property.image2.SPAWinPhone8Image2Property",
-            "render": true
-        },
-        "winphone8": {
-            "@class": "com.kony.gen.viz.model.component.property.image2.WinPhone8Image2Property",
-            "_margin_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "margin": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "marginInPixel": false,
-            "render": true
-        }
-    },
-    "render": true,
-    "skin": "noSkinImage",
-    "spabbnth": {
-        "@class": "com.kony.gen.viz.model.component.property.image2.SPABBNTHImage2Property",
-        "render": true
-    },
     "srcType": 1,
-    "text": "",
-    "vExpand": false,
-    "vexpand": false,
     "wType": "Image",
-    "widgetAlignment": 5,
-    "widgetalignment": 5
+    "widgetalignment": 5,
+    "zindex": 1
 }

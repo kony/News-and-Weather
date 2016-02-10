@@ -1,7 +1,7 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_enabled_": false,
     "_height_": {
         "type": "string",
         "value": "7%"
@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "CopysknLblKonyThemeTitle07688a2990a8d45",
+    "_skin_": "s73b500a97c7427e8f01b8561e5409eb",
     "_text_": "News",
     "_top_": {
         "type": "string",
@@ -32,128 +32,75 @@
         "type": "string",
         "value": "100%"
     },
-    "accessibilityConfig": {
-        "a11yHidden": false,
-        "a11yHint": "",
-        "a11yLabel": "",
-        "a11yValue": ""
-    },
     "accessibilityconfig": {
         "a11yHidden": false,
         "a11yHint": "",
         "a11yLabel": "",
         "a11yValue": ""
     },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.label.AndroidLabelProperty",
+        "psp": {
+            "textCopyable": false
+        },
+        "render": true
+    },
     "canUpdateUI": true,
-    "channel": "mobile",
-    "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "hExpand": true,
-    "height": {
-        "type": "string",
-        "value": "7%"
-    },
     "hexpand": true,
     "id": "lblTitle",
     "info": null,
-    "isVisible": true,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
+        "psp": {
+            "pasteboardType": 2,
+            "textCopyable": false,
+            "wrapping": 2
+        },
+        "render": true
+    },
     "isvisible": true,
     "kuid": "36db35fcad924619aa26bd21b253cfa9",
-    "left": {
-        "type": "string",
-        "value": "0%"
-    },
-    "margin": [
-        1,
-        1,
-        1,
-        1
-    ],
-    "marginInPixel": false,
     "margininpixel": false,
     "name": "kony.ui.Label",
-    "padding": [
-        0,
-        0,
-        0,
-        0
-    ],
-    "paddingInPixel": false,
     "paddinginpixel": false,
     "parent": "frmBrowser",
     "pf": "frmBrowser",
-    "platforms": {
-        "android": {
-            "@class": "com.kony.gen.viz.model.component.property.label.AndroidLabelProperty",
-            "psp": {
-                "@class": "com.kony.gen.viz.model.component.psp.label.AndroidLabelPSP",
-                "textCopyable": false
-            },
-            "render": true
-        },
-        "iphone": {
-            "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
-            "psp": {
-                "@class": "com.kony.gen.viz.model.component.psp.label.IPhoneLabelPSP",
-                "pasteboardType": 2,
-                "textCopyable": false,
-                "wrapping": 2
-            },
-            "render": true
-        },
-        "spa": {
-            "@class": "com.kony.gen.viz.model.component.property.label.SPALabelProperty",
-            "psp": {
-                "@class": "com.kony.gen.viz.model.component.psp.label.SPALabelPSP",
-                "textCopyable": false
-            }
-        },
-        "spaan": {
-            "@class": "com.kony.gen.viz.model.component.property.label.SPAAndroidLabelProperty",
-            "render": true
-        },
-        "spabb": {
-            "@class": "com.kony.gen.viz.model.component.property.label.SPABBLabelProperty",
-            "render": true
-        },
-        "spaip": {
-            "@class": "com.kony.gen.viz.model.component.property.label.SPAIPhoneLabelProperty",
-            "render": true
-        },
-        "spawinphone8": {
-            "@class": "com.kony.gen.viz.model.component.property.label.SPAWinPhone8LabelProperty",
-            "render": true
-        },
-        "winphone8": {
-            "@class": "com.kony.gen.viz.model.component.property.label.WinPhone8LabelProperty",
-            "render": true
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPALabelProperty",
+        "psp": {
+            "textCopyable": false
         }
     },
-    "render": true,
-    "skin": "CopysknLblKonyThemeTitle07688a2990a8d45",
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPAAndroidLabelProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPABBLabelProperty",
+        "render": true
+    },
     "spabbnth": {
         "@class": "com.kony.gen.viz.model.component.property.label.SPABBNTHLabelProperty",
         "render": true
     },
-    "text": "News",
-    "toolTip": "",
-    "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "0%"
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPAIPhoneLabelProperty",
+        "render": true
     },
-    "vExpand": false,
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.label.SPAWinPhone8LabelProperty",
+        "render": true
+    },
+    "tooltip": "",
     "vexpand": false,
     "wType": "Label",
-    "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.label.WinPhone8LabelProperty",
+        "render": true
     },
-    "zIndex": 1,
     "zindex": 1
 }

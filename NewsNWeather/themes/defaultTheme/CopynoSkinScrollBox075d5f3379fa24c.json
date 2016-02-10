@@ -1,0 +1,15 @@
+{
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "font_color": "000000ff",
+    "font_size": 100,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "isDefaultSkin": false,
+    "kuid": "s28f2988f9c9458f8947d1f85fd0cb26",
+    "wType": "ScrollBox"
+}

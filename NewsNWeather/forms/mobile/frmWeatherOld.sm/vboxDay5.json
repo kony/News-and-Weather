@@ -1,0 +1,83 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_resize_": true,
+    "_skin_": "s2407007982c4979b332d213ca27cf71",
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "allboxes": [],
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.AndroidVBoxProperty",
+        "render": true
+    },
+    "borderCollapse": false,
+    "canUpdateUI": true,
+    "children": [
+        "lblDay5",
+        "imgCloud5",
+        "lblMinTemp5",
+        "lblMaxTemp5"
+    ],
+    "containerweight": 22,
+    "enabled": false,
+    "id": "vboxDay5",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.IPhoneVBoxProperty",
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "326e0766365547c99c165fdbc42ed1b5",
+    "margininpixel": false,
+    "name": "kony.ui.Box",
+    "paddinginpixel": false,
+    "parent": "scrollboxWeather",
+    "pf": "frmWeatherOld",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.SPAVBoxProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.SPAAndroidVBoxProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.SPABBVBoxProperty",
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.SPABBNTHVBoxProperty",
+        "render": true
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.SPAIPhoneVBoxProperty",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.SPAWinPhone8VBoxProperty",
+        "render": true
+    },
+    "templateType": "forms",
+    "wType": "VBox",
+    "widgetalignment": 1,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.vbox.WinPhone8VBoxProperty",
+        "render": true
+    }
+}

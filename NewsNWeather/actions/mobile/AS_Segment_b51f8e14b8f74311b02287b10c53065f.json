@@ -1,15 +1,13 @@
 {
-	"AS_Segment_b51f8e14b8f74311b02287b10c53065f": {
-		"id": "AS_Segment_b51f8e14b8f74311b02287b10c53065f",
-		"type": "ACTION_SEQUENCE",
-		"actions": [
-			{
-				"id": "ADD_SNIPPET__2f994427856047238e47698345af0502",
-				"type": "ADD_SNIPPET",
-				"codeSnippet": "getNews1();",
-				"parentId": null,
-				"callbackType": null
-			}
-		]
-	}
+    "AS_Segment_b51f8e14b8f74311b02287b10c53065f": {
+        "id": "AS_Segment_b51f8e14b8f74311b02287b10c53065f",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET__2f994427856047238e47698345af0502",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "getNews1();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
 }

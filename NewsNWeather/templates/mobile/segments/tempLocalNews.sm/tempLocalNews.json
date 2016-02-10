@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s4b242af67b34c0fbeb306bb2343b65e",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "flxLocalNews"
+    ],
+    "containerId": true,
+    "containerweight": 100,
+    "currentLocale": null,
+    "device": "GalaxyS5",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "id": "tempLocalNews",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "isvisible": true,
+    "kuid": "336a4aad9cbf4ee084674e9a961405f1",
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
+    "retainscrollposition": false,
+    "shellCSS": "and_GalaxyS5",
+    "titleBarSkin": "sc01a6a31e0c4507826ad9f78492a6c4",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form"
+}

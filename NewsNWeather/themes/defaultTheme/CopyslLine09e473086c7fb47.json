@@ -1,0 +1,35 @@
+{
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "border_color": "b3b3b3ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "delinkedPltfrms": {
+        "desktop": [],
+        "mobile": [
+            "iphone"
+        ],
+        "tablet": []
+    },
+    "font_color": "b3b3b3ff",
+    "font_name": "Helvetica",
+    "font_size": 156,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "isForked": true,
+        "shadow": {
+            "br": 0,
+            "color": "000000",
+            "inner": false,
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        },
+        "wType": "Line"
+    },
+    "isDefaultSkin": false,
+    "kuid": "sfec0c2276604e359f6110a0f8a80e7f",
+    "wType": "Line"
+}

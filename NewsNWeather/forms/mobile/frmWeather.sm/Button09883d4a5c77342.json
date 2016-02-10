@@ -1,0 +1,61 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6eb13d42080471b88bf6f3c1b137bef",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sdc7233cfa11452a9b84f998d4669781",
+    "id": "Button09883d4a5c77342",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.button.IPhoneButtonProperty",
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": false,
+    "kuid": "051bc78de1704a4a908ff17e2730df76",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_210238f82d86473ab5a3197728c0d165",
+    "parent": "frmLocalHeader",
+    "pf": "frmWeather",
+    "showprogressindicator": false,
+    "wType": "Button",
+    "zindex": 50
+}

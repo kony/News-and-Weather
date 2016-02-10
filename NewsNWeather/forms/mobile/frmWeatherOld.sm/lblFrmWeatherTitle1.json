@@ -1,0 +1,51 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1f5239d2240447a8c42646b17eef011",
+    "_text_": "Local",
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 80,
+    "contentalignment": 5,
+    "donotUpdateContainerWeight": false,
+    "enabled": false,
+    "id": "lblFrmWeatherTitle1",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "c234b037693d41adbac924fd5e780eb5",
+    "margininpixel": false,
+    "name": "kony.ui.Label",
+    "paddInPixel": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "HBox02410434335a94b",
+    "pf": "frmWeatherOld",
+    "tooltip": "",
+    "wType": "Label"
+}

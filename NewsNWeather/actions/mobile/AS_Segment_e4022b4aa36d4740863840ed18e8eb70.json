@@ -1,15 +1,23 @@
 {
-	"AS_Segment_e4022b4aa36d4740863840ed18e8eb70": {
-		"id": "AS_Segment_e4022b4aa36d4740863840ed18e8eb70",
-		"type": "ACTION_SEQUENCE",
-		"actions": [
-			{
-				"id": "ADD_SNIPPET__2216e3fef56c47f2b5d5b27760a86f1b",
-				"type": "ADD_SNIPPET",
-				"codeSnippet": "getNews1();",
-				"parentId": null,
-				"callbackType": null
-			}
-		]
-	}
+    "AS_Segment_e4022b4aa36d4740863840ed18e8eb70": {
+        "id": "AS_Segment_e4022b4aa36d4740863840ed18e8eb70",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "actions": [{
+            "id": "ADD_SNIPPET__2216e3fef56c47f2b5d5b27760a86f1b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "getNews1();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
 }

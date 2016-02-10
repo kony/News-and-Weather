@@ -1,0 +1,198 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s24984d3b01b4417970dc6ba12c3ae9e",
+    "_title_": "",
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.form.AndroidFormProperty",
+        "displayOrientation": 1,
+        "footerOverlap": false,
+        "headerOverlap": false,
+        "inTransitionConfig": {
+            "formAnimation": 0
+        },
+        "isModal": false,
+        "menuPosition": 2,
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "formAnimation": 0
+        },
+        "psp": {
+            "windowSoftInputMode": 1
+        },
+        "render": true,
+        "undefined": 1
+    },
+    "bounces": true,
+    "canUpdateUI": true,
+    "children": [
+        "HBox02410434335a94b",
+        "lblFrmWeatherTitle",
+        "scrollboxWeather",
+        "Label0525955bb83f143",
+        "segmentNews"
+    ],
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "currentLocale": null,
+    "device": "GalaxyS4",
+    "displayorientation": 3,
+    "enabled": false,
+    "enabledforidletimeout": false,
+    "footeroverlap": false,
+    "headeroverlap": false,
+    "id": "frmWeatherOld",
+    "info": null,
+    "initdone": false,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.container.property.form.IPhoneFormProperty",
+        "displayOrientation": 1,
+        "footerOverlap": false,
+        "headerOverlap": false,
+        "inTransitionConfig": {
+            "transitionDirection": "none",
+            "transitionEffect": "none"
+        },
+        "isModal": false,
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "transitionDirection": "none",
+            "transitionEffect": "none"
+        },
+        "psp": {
+            "bounces": true,
+            "configureExtendBottom": false,
+            "configureExtendTop": false,
+            "configureStatusBarStyle": false,
+            "extendBottom": false,
+            "extendTop": false,
+            "formTransparencyDuringPostShow": 100,
+            "inputAccessoryViewType": 1,
+            "needsIndicatorDuringPostShow": true,
+            "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
+            "titleBarConfig": {
+                "buttonClosureLeftSideView": "",
+                "buttonClosureRightSideView": "",
+                "buttonText": "Edit",
+                "leftButtonText": "Back",
+                "leftTitle": "Back",
+                "prevFormTitle": false,
+                "renderTitleText": true,
+                "rightTitle": "Edit",
+                "titleBarLeftSideView": "button",
+                "titleBarRightSideView": "button",
+                "titleClosureLeftSideView": "",
+                "titleClosureRightSideView": "",
+                "visible": false
+            }
+        },
+        "render": true,
+        "titleBar": false,
+        "undefined": 1
+    },
+    "ismodal": false,
+    "isvisible": true,
+    "kuid": "p2kwiet158657408015012",
+    "margininpixel": false,
+    "menuposition": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "percent": true,
+    "platform": "android",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
+    "restorewidgetprototypes": true,
+    "retainscrollposition": false,
+    "shellCSS": "and_GalaxyS4",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAFormProperty",
+        "inTransitionConfig": {
+            "formTransition": "none"
+        },
+        "isModal": false,
+        "outTransitionConfig": {
+            "formTransition": "none"
+        },
+        "psp": {
+            "dockableAppMenu": true,
+            "dockableFooter": true,
+            "dockableHeader": true
+        }
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAAndroidFormProperty",
+        "needAppMenu": false,
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPABBFormProperty",
+        "needAppMenu": false,
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPABBNTHFormProperty",
+        "needAppMenu": true,
+        "render": true
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAIPhoneFormProperty",
+        "needAppMenu": false,
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAWinPhone8FormProperty",
+        "needAppMenu": false,
+        "render": true
+    },
+    "templateType": "forms",
+    "titleBarSkin": "s6d58b641de94dc8bc16edaad504a1f7",
+    "titlebar": false,
+    "transparencybehindthepopup": 100,
+    "type": 3,
+    "wType": "Form",
+    "widgetalignment": 1,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.form.WinPhone8FormProperty",
+        "displayOrientation": 1,
+        "inTransitionConfig": {
+            "transitionSpeed": 0
+        },
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "transitionSpeed": 0
+        },
+        "psp": {
+            "animateHeaderFooter": false,
+            "maxAppMenuButtons": 4
+        },
+        "render": true,
+        "undefined": 1
+    }
+}

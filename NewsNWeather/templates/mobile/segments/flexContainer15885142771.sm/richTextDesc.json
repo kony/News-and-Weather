@@ -1,0 +1,108 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "72.0%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_skin_": "s35c74e7241044d697afdaa3d39990f0",
+    "_text_": "RichText",
+    "_top_": {
+        "type": "string",
+        "value": "28.0%"
+    },
+    "_wrapping_": 2,
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.AndroidRichTextProperty",
+        "render": true,
+        "undefined": true
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "enabled": false,
+    "hexpand": true,
+    "id": "richTextDesc",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.IPhoneRichTextProperty",
+        "_wrapping_": 2,
+        "render": true,
+        "undefined": true,
+        "wrapping": 2
+    },
+    "isSegmentChild": true,
+    "isvisible": true,
+    "kuid": "54de5a5bd05f41a189dbd1fa813545c1",
+    "margininpixel": false,
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "flexContainer15885142771",
+    "pf": "flexContainer15885142771",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPARichTextProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPAAndroidRichTextProperty",
+        "render": true,
+        "undefined": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPABBRichTextProperty",
+        "render": true,
+        "undefined": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPABBNTHRichTextProperty",
+        "render": true,
+        "undefined": true
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPAIPhoneRichTextProperty",
+        "render": true,
+        "undefined": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPAWinPhone8RichTextProperty",
+        "render": true,
+        "undefined": true
+    },
+    "vexpand": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.WinPhone8RichTextProperty",
+        "render": true,
+        "undefined": true
+    },
+    "zindex": 1
+}
