@@ -7,4 +7,4 @@ This application will showcase how to use JS MBaaS SDK to invoke identity, integ
  * android
 
 # KonyStudio Version:
-  * 7.0.
+  **7.0.**
