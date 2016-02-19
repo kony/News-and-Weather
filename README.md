@@ -6,4 +6,4 @@ This application will showcase how to use JS MBaaS SDK to invoke identity, integ
  * iPhone
  * android
 
-**Supported KonyStudio Version:** 7.0
+**Supported KonyVisualizer Version:** 7.0
