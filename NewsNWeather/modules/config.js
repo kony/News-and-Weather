@@ -1,7 +1,7 @@
 
 MBaaSConfig ={
-	userId:"dharmendra.kumar@kony.com",
-	password:"Password_1",
+	userId:"omkar.thadem@kony.com",
+	password:"Omkar@KH2041",
     "AppKey" : "6a6157cbf176019edda751bea6b62cf8", 
     "AppSecret" : "158badbf5bbdab031c11e3a902408fd8", 
     "IdentityService" : "userstore",

@@ -50,7 +50,7 @@
     "focusskin": "s0c6d08ea73740dd91ae299e5224e2d2",
     "hexpand": true,
     "id": "Button0f90174f2e6c441",
-    "ide_onClick": "frmLogin_Button0f90174f2e6c441_onClick_seq0",
+    "ide_onClick": "AS_Button_cb408411a357401598922fcab306bd29",
     "info": null,
     "iphone": {
         "@class": "com.kony.gen.viz.model.component.property.button.IPhoneButtonProperty",

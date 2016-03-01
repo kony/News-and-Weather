@@ -1639,7 +1639,7 @@ return list[i], list[i+1], .... list[j].*/
 	                break;
 	        }
 			if(kony.os.isLeapYear([d1,fmt]) && dateObj.getMonth() >= 1 && (unit == "years" || (unit == "months" && (count == -12 || count == 12))) )
-					dateObj.setDate(dateObj.getDategetDate() - 1);
+					dateObj.setDate(dateObj.getDate() - 1);
 			
 			return kony.os.formatdate(fmt,dateObj);
 			
@@ -1914,7 +1914,3 @@ return list[i], list[i+1], .... list[j].*/
             return true;
         }
     };
-	
-
-	
-	
