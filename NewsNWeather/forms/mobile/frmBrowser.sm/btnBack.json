@@ -38,6 +38,7 @@
     "displaytext": true,
     "focusskin": "s8f9eea5e386478e8ef50069d898a287",
     "id": "btnBack",
+    "ide_onClick": "AS_Button_8ab4d11d9014430c89b90cc0c95722cf",
     "info": null,
     "iphone": {
         "@class": "com.kony.gen.viz.model.component.property.button.IPhoneButtonProperty",

@@ -233,7 +233,7 @@
     <attributes name="win8publisherdisplaynamekey" value="KonyLabs"/>
     <attributes name="WP8_ID_CAP_CONTACTS" value="true"/>
     <attributes name="Location" value="true"/>
-    <attributes name="cloud_env_GUID" value="8cde505e-a30c-464a-93d4-4336702b4f6d"/>
+    <attributes name="cloud_env_GUID" value="f624671f-9244-42e8-a143-809a3e0e7aaf"/>
     <attributes name="manifest_tag_attrs" value=""/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
     <attributes name="currentgaversion" value="7.0.0.GA_v201602242322"/>
@@ -374,7 +374,7 @@
     <attributes name="access_pimdomain_contacts" value="false"/>
     <attributes name="apmformExit" value="false"/>
     <attributes name="CHANGE_WIFI_MULTICAST_STATE" value="false"/>
-    <attributes name="cloud_url" value="https://acme-inc.konycloud.com"/>
+    <attributes name="cloud_url" value="https://mobilefabric-demo.konycloud.com"/>
     <attributes name="certs_key_store_pwd" value="kds/0eUc+i3BqFqSkpCk4g=="/>
     <attributes name="CALL_PRIVILEGED" value="false"/>
     <attributes name="SUBSCRIBED_FEEDS_READ" value="false"/>
@@ -462,7 +462,7 @@
     <attributes name="apmerrorunhandledexception" value="true"/>
     <attributes name="tcandroid320basefontsize" value="12"/>
     <attributes name="BROADCAST_SMS" value="false"/>
-    <attributes name="cloud_env_name" value="ACME-AcmeInc"/>
+    <attributes name="cloud_env_name" value="Kony Cloud MobileFabric-MobileFabric"/>
     <attributes name="ID_REQ_REARCAMERA" value="false"/>
     <attributes name="tcandroid360basefontsize" value="13"/>
     <attributes name="win8displaynamekey" value="NewsNWeather"/>

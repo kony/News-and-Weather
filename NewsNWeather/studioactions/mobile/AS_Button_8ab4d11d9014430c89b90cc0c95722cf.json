@@ -1,22 +1,22 @@
 {
-    "AS_Button_cb408411a357401598922fcab306bd29": {
-        "id": "AS_Button_cb408411a357401598922fcab306bd29",
+    "AS_Button_8ab4d11d9014430c89b90cc0c95722cf": {
+        "id": "AS_Button_8ab4d11d9014430c89b90cc0c95722cf",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmLogin",
+            "name": "frmBrowser",
             "type": "forms",
             "platform": "",
-            "KUID": "aa8f5a29a9e14562b45df5374ad7f454"
+            "KUID": "9a0ef5c3353349929f74ebc187242e33"
         },
         "actions": [{
-            "id": "INVOKE_FUNCTION___ef30de7620c943dca10a933ab29b0d1d",
+            "id": "INVOKE_FUNCTION___da3206e6c7a5451e9d74b3af4147e4f2",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "login",
-            "display": "login",
+            "sequenceKUID": "destroyForm",
+            "display": "destroyForm",
             "inputparams": [],
             "parentId": null,
             "callbackType": null

@@ -50,7 +50,7 @@
     "focusskin": "s714b8f94af546229426514b011d721c",
     "hexpand": true,
     "id": "btnMenu",
-    "ide_onClick": "frmNews_btnMenu_onClick_seq0",
+    "ide_onClick": "AS_Button_78bceff7184d42cb92cbb823c0709dde",
     "info": null,
     "iphone": {
         "@class": "com.kony.gen.viz.model.component.property.button.IPhoneButtonProperty",

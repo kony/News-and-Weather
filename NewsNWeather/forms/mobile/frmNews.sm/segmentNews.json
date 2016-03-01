@@ -79,7 +79,7 @@
     "groupcells": false,
     "hasSections": false,
     "id": "segmentNews",
-    "ide_onRowClick": "frmNews_segmentNews_onRowClick_seq0",
+    "ide_onRowClick": "AS_Segment_b85eadc5f5bb42f9887691a50c215eab",
     "info": null,
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
@@ -131,7 +131,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "selectionbehaviorconfig": {},
     "separatorcolor": "64646400",

@@ -12,8 +12,8 @@ var appConfig = {
     middlewareContext: "NewsNWeather",
     isMFApp: false,
     eventTypes: ["FormEntry", "ServiceRequest", "Error", "Crash"],
-    url: "https://acme-inc.konycloud.com/NewsNWeather/MWServlet",
-    secureurl: "https://acme-inc.konycloud.com/NewsNWeather/MWServlet"
+    url: "https://mobilefabric-demo.konycloud.com/NewsNWeather/MWServlet",
+    secureurl: "https://mobilefabric-demo.konycloud.com/NewsNWeather/MWServlet"
 };
 sessionID = "";
 

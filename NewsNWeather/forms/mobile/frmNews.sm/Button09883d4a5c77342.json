@@ -38,6 +38,7 @@
     "displaytext": true,
     "focusskin": "sdc7233cfa11452a9b84f998d4669781",
     "id": "Button09883d4a5c77342",
+    "ide_onClick": "AS_Button_b1c12d4408f948cc9f0a9a72e08bb8e5",
     "info": null,
     "iphone": {
         "@class": "com.kony.gen.viz.model.component.property.button.IPhoneButtonProperty",

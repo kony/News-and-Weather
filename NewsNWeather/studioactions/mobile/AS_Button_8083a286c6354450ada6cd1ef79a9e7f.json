@@ -1,0 +1,27 @@
+{
+    "AS_Button_8083a286c6354450ada6cd1ef79a9e7f": {
+        "id": "AS_Button_8083a286c6354450ada6cd1ef79a9e7f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWeather",
+            "type": "forms",
+            "platform": "",
+            "KUID": "70f30aea743b49a9ad3484b652fe6145"
+        },
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___2d5f99f74812492c8e3ae87ec4c6537c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmNews",
+            "formKUID": "1a5bbffa97404c958035782cad0d55b1",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

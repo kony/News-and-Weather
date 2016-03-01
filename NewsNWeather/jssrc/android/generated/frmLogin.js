@@ -146,7 +146,7 @@ function addWidgetsfrmLogin() {
         "id": "Button0f90174f2e6c441",
         "isVisible": true,
         "left": "4%",
-        "onClick": frmLogin_Button0f90174f2e6c441_onClick_seq0,
+        "onClick": AS_Button_cb408411a357401598922fcab306bd29,
         "right": "5%",
         "skin": "CopyslButtonGlossBlue02096ba0a10044a",
         "text": "Login",

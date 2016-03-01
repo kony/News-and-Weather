@@ -85,6 +85,7 @@
     "groupcells": false,
     "hasSections": false,
     "id": "segmentNews",
+    "ide_onRowClick": "AS_Segment_0bb825e93cd646d9baeca225d6628818",
     "info": null,
     "ipad": {
         "psp": {

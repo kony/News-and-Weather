@@ -1,22 +1,22 @@
 {
-    "AS_Button_cb408411a357401598922fcab306bd29": {
-        "id": "AS_Button_cb408411a357401598922fcab306bd29",
+    "AS_Button_b1c12d4408f948cc9f0a9a72e08bb8e5": {
+        "id": "AS_Button_b1c12d4408f948cc9f0a9a72e08bb8e5",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmLogin",
+            "name": "frmNews",
             "type": "forms",
             "platform": "",
-            "KUID": "aa8f5a29a9e14562b45df5374ad7f454"
+            "KUID": "1a5bbffa97404c958035782cad0d55b1"
         },
         "actions": [{
-            "id": "INVOKE_FUNCTION___ef30de7620c943dca10a933ab29b0d1d",
+            "id": "INVOKE_FUNCTION___204e2cd1bb6e4788bed7d8e50520b682",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "login",
-            "display": "login",
+            "sequenceKUID": "menuToggle",
+            "display": "menuToggle",
             "inputparams": [],
             "parentId": null,
             "callbackType": null
