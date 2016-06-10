@@ -19,6 +19,9 @@
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
+    "android": {
+        "needAppMenu": false
+    },
     "canUpdateUI": true,
     "children": [
         "frmLocalHeader",
@@ -46,6 +49,7 @@
         }
     },
     "iphone": {
+        "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -79,8 +83,23 @@
     "shellCSS": "and_GalaxyS5",
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
     "titleBarSkin": "sc01a6a31e0c4507826ad9f78492a6c4",
     "titlebar": true,
     "type": 3,
-    "wType": "Form"
+    "wType": "Form",
+    "winphone8": {
+        "needAppMenu": false
+    }
 }

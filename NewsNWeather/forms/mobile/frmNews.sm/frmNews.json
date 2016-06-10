@@ -105,6 +105,7 @@
     "margininpixel": false,
     "menuposition": 2,
     "name": "kony.ui.Form2",
+    "needappmenu": false,
     "paddinginpixel": false,
     "pagingenabled": false,
     "platform": "spaip",
@@ -130,7 +131,7 @@
     },
     "spabb": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.SPABBScrollFlexFormProperty",
-        "needAppMenu": true,
+        "needAppMenu": false,
         "render": false
     },
     "spabbnth": {

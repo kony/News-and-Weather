@@ -12,18 +12,18 @@
     "iphoneipadglossyeffectkey": "false",
     "createdgaversion": "6.0.0",
     "wap_android640_fontsize": "19",
+    "ide_appEvents": {
+        "mobile": {
+            "postappinit": "AS_AppEvents_aa916090ca5245c6ae6bf06357d4b592"
+        }
+    },
+    "winmobileguidkey": "",
     "prototype": {
         "createdOn": "2016-02-09T12:33:36.440Z",
         "resourceId": "9e26348c-0a99-4e9d-87cd-601658e475c5",
         "createdBy": "Omkar Thadem",
         "createdById": "6ef9138f-58f2-4529-9654-87d431c980bb",
         "shareGuid": "1RVZ7"
-    },
-    "winmobileguidkey": "",
-    "ide_appEvents": {
-        "mobile": {
-            "postappinit": "AS_AppEvents_aa916090ca5245c6ae6bf06357d4b592"
-        }
     },
     "desktopwebbasefontsize": "16",
     "watchos_shortlooknotificationicon_42": "",
@@ -52,6 +52,7 @@
     "cloud_url": "https://mobilefabric-demo.konycloud.com",
     "enableactionbar": false,
     "appmenu": {
+        "osVersion": "iOS7",
         "tablet": {
             "data": [
                 {
@@ -59,8 +60,8 @@
                     "icon": {
                         "default": "option1.png"
                     },
-                    "title": "Item 1",
                     "menuPSPs": {},
+                    "title": "Item 1",
                     "kuid": "98948e3a581d44fbb0b0fe247e35c7ea"
                 },
                 {
@@ -68,8 +69,8 @@
                     "icon": {
                         "default": "option2.png"
                     },
-                    "title": "Item 2",
                     "menuPSPs": {},
+                    "title": "Item 2",
                     "kuid": "febbeba64a5c4d649396217baadc1ae5"
                 },
                 {
@@ -77,8 +78,8 @@
                     "icon": {
                         "default": "option3.png"
                     },
-                    "title": "Item 3",
                     "menuPSPs": {},
+                    "title": "Item 3",
                     "kuid": "cd088fc3acbd43aeb01d2ed6041f8d22"
                 },
                 {
@@ -86,13 +87,12 @@
                     "icon": {
                         "default": "option4.png"
                     },
-                    "title": "Item 4",
                     "menuPSPs": {},
+                    "title": "Item 4",
                     "kuid": "ba21a63ea66f454987ca698bfc142e5f"
                 }
             ]
         },
-        "osVersion": "iOS7",
         "wType": "Appmenu",
         "osPlatform": "",
         "desktop": {
@@ -102,8 +102,8 @@
                     "icon": {
                         "default": "option1.png"
                     },
-                    "title": "Item 1",
                     "menuPSPs": {},
+                    "title": "Item 1",
                     "kuid": "e60327808fe04d35a10175b30922bee2"
                 },
                 {
@@ -111,8 +111,8 @@
                     "icon": {
                         "default": "option2.png"
                     },
-                    "title": "Item 2",
                     "menuPSPs": {},
+                    "title": "Item 2",
                     "kuid": "300754b052494035b3d43645dc68e69e"
                 },
                 {
@@ -120,8 +120,8 @@
                     "icon": {
                         "default": "option3.png"
                     },
-                    "title": "Item 3",
                     "menuPSPs": {},
+                    "title": "Item 3",
                     "kuid": "e42f1eb1a84d43baaf225fc593e5b638"
                 },
                 {
@@ -129,8 +129,8 @@
                     "icon": {
                         "default": "option4.png"
                     },
-                    "title": "Item 4",
                     "menuPSPs": {},
+                    "title": "Item 4",
                     "kuid": "82f54472636040548d11439ce4b50fad"
                 }
             ]
@@ -142,12 +142,12 @@
                     "icon": {
                         "default": "option1.png"
                     },
-                    "title": "Item 1",
                     "menuPSPs": {
                         "android": {
                             "showAsFlag": 0
                         }
                     },
+                    "title": "Item 1",
                     "kuid": "f0e9ac4036824ccba1d7a98dcb9f07bd"
                 },
                 {
@@ -155,12 +155,12 @@
                     "icon": {
                         "default": "option2.png"
                     },
-                    "title": "Item 2",
                     "menuPSPs": {
                         "android": {
                             "showAsFlag": 0
                         }
                     },
+                    "title": "Item 2",
                     "kuid": "f7eaa7666c9946fb8a4f3d62df44b851"
                 },
                 {
@@ -168,12 +168,12 @@
                     "icon": {
                         "default": "option3.png"
                     },
-                    "title": "Item 3",
                     "menuPSPs": {
                         "android": {
                             "showAsFlag": 0
                         }
                     },
+                    "title": "Item 3",
                     "kuid": "f87e76e1aacf4245ad432c1e76028444"
                 },
                 {
@@ -181,12 +181,12 @@
                     "icon": {
                         "default": "option4.png"
                     },
-                    "title": "Item 4",
                     "menuPSPs": {
                         "android": {
                             "showAsFlag": 0
                         }
                     },
+                    "title": "Item 4",
                     "kuid": "60469c4244df4ea2b399a440cf551e66"
                 }
             ]
@@ -208,23 +208,23 @@
     "wap_winphone480_fontsize": "12",
     "wap_bb240_fontsize": "12",
     "wap_bb480_fontsize": "17",
-    "wap_spaandroidtabmdpi_fontsize": "14",
-    "wap_bb320_fontsize": "15",
     "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
+    "wap_bb320_fontsize": "15",
+    "wap_spaandroidtabmdpi_fontsize": "14",
     "project_version": "sprint22",
     "wap_android400_fontsize": "14",
     "wap_ip_fontsize": "12",
     "@class": "com.kony.gen.appprops.KVizAppProps",
     "watchos_shortlooknotificationicon_38": "",
-    "appidkey": "newsNWeather",
     "currentgaversion": "7.0.0",
+    "appidkey": "newsNWeather",
     "mwhttpsportkey": "443",
     "vendornamekey": "KonyLabs",
     "konyVizVersion": "7.0.0",
-    "iphonebundleversionkey": "1.0",
     "appnamekey": "News and Weather",
-    "wap_spaipad_fontsize": "17",
+    "iphonebundleversionkey": "1.0",
     "wap_android440_fontsize": "15",
+    "wap_spaipad_fontsize": "17",
     "wap_spaandroidtabhdpi_fontsize": "16",
     "nativeContainerProperties": {
         "isModified": false,
