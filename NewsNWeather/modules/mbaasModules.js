@@ -23,7 +23,8 @@ function initMbaas()
 		kony.print("\n----in init success-----\n");
       	frmLogin.txtBoxUserName.text=MBaaSConfig.userId;
       	frmLogin.txtBoxPassword.text=MBaaSConfig.password;
-      	frmLogin.show();
+      	getNews("h");
+      	//frmLogin.show();
 		kony.application.dismissLoadingScreen();
 		firstLogin=true;
 	}
