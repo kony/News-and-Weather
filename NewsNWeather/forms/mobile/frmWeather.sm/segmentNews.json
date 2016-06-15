@@ -48,7 +48,7 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "63%"
+        "value": "70%"
     },
     "_indicator_": "none",
     "_left_": {
@@ -70,7 +70,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "37%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
@@ -85,7 +85,7 @@
     "groupcells": false,
     "hasSections": false,
     "id": "segmentNews",
-    "ide_onRowClick": "AS_Segment_0bb825e93cd646d9baeca225d6628818",
+    "ide_onRowClick": "AS_Segment_9898983eed8e46a597ae77a572f2b328",
     "info": null,
     "ipad": {
         "psp": {
@@ -108,12 +108,12 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "frmWeather",
+    "parent": "flxNewsContainer",
     "pf": "frmWeather",
     "retainselection": false,
     "rowTemplateId": "336a4aad9cbf4ee084674e9a961405f1",
     "rowcounter": 2,
-    "rowfocusskin": "scb52175004343e2bb9d7f59c323e539",
+    "rowfocusskin": "s4a0765fdabd462b854f1433e55b501d",
     "rowskin": "s4a0765fdabd462b854f1433e55b501d",
     "rowtemplate": "flxLocalNews",
     "screenlevelwidget": false,

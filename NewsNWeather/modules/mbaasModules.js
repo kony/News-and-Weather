@@ -49,9 +49,9 @@ function initMbaas()
 		kony.application.showLoadingScreen("sknLoading","Please wait...",constants.LOADING_SCREEN_POSITION_ONLY_CENTER, true, true,null);
 		
     //MBaaS client initialization using init method.
-    client.init(MBaaSConfig.AppKey,// App key of application to use MBaaS APIs
-     	MBaaSConfig.AppSecret,// App secret of application to use MBaaS APIs
-     	 MBaaSConfig.ServiceURL,// URL for App's Service Document   
+    client.init(configObject.keys.APP_KEY,// App key of application to use MBaaS APIs
+     	configObject.keys.APP_SECRET,// App secret of application to use MBaaS APIs
+     	 configObject.keys.SERVICE_URL,// URL for App's Service Document   
      	 initSuccessCallBack,//Initialization success callback 
       	initFailureCallBack);//Initialization failure callback
 }
@@ -62,7 +62,10 @@ function initMbaas()
 *	Purpose : To login in MBaaS.
 ****************************************************************
 */
-function login() 
+function login(){
+  getNews("h");
+}
+function login1() 
 {
 	kony.print("\n---in login---\n");
 	if(frmLogin.txtBoxUserName.text ===""||frmLogin.txtBoxUserName.text ===null||frmLogin.txtBoxPassword.text===""||frmLogin.txtBoxPassword.text===null)

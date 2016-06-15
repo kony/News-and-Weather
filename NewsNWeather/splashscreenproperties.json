@@ -1,2 +1,29 @@
 {
+    "splashScreen": {
+        "mobile": {
+            "iphone": {},
+            "android": {},
+            "winphone8": {},
+            "spa": {},
+            "spaip": {},
+            "spaan": {},
+            "spawinphone8": {},
+            "splashImage": "background.png"
+        },
+        "tablet": {
+            "ipad": {
+                "landscape": {}
+            },
+            "android": {},
+            "windows8": {},
+            "spa": {},
+            "spaipad": {},
+            "spaandroidtablet": {},
+            "spawindowstablet": {}
+        },
+        "desktop": {
+            "desktopweb": {},
+            "kiosk": {}
+        }
+    }
 }

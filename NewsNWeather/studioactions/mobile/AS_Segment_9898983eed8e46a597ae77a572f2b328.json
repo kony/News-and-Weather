@@ -1,6 +1,6 @@
 {
-    "AS_Segment_0bb825e93cd646d9baeca225d6628818": {
-        "id": "AS_Segment_0bb825e93cd646d9baeca225d6628818",
+    "AS_Segment_9898983eed8e46a597ae77a572f2b328": {
+        "id": "AS_Segment_9898983eed8e46a597ae77a572f2b328",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -12,14 +12,8 @@
             "datatype": "number",
             "name": "rowNumber"
         }],
-        "contextObj": {
-            "name": "frmWeather",
-            "type": "forms",
-            "platform": "",
-            "KUID": "70f30aea743b49a9ad3484b652fe6145"
-        },
         "actions": [{
-            "id": "INVOKE_FUNCTION___f7cbb350322d466192cada7fea1d6e1a",
+            "id": "INVOKE_FUNCTION__ide_onRowClick_3a766f3709f94f8fb7abc37ad470ff2b",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "newsDetails",
             "display": "newsDetails",
@@ -27,7 +21,6 @@
                 "name": "frmID",
                 "value": "\"frmWeather\""
             }],
-            "parentId": null,
             "callbackType": null
         }]
     }

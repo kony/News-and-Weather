@@ -1,5 +1,5 @@
 <properties>
-    <attributes name="applogokey" value=""/>
+    <attributes name="applogokey" value="0=ic_launcher.png,1=,8=,42=,16=,18=,43=,1000=,1001=,1002=,9999=,21=,9998=,9997="/>
     <attributes name="androidmapkey2" value=""/>
     <attributes name="ACCESS_WIFI_STATE" value="false"/>
     <attributes name="mwaddrkey" value="10.10.12.175"/>
@@ -27,7 +27,7 @@
     <attributes name="CLEAR_APP_USER_DATA" value="false"/>
     <attributes name="webcam" value="false"/>
     <attributes name="wp8flipsmallkey" value=""/>
-    <attributes name="ACCESS_COARSE_LOCATION" value="false"/>
+    <attributes name="ACCESS_COARSE_LOCATION" value="true"/>
     <attributes name="RESTART_PACKAGES" value="false"/>
     <attributes name="ID_CAP_PHONEDIALER" value="true"/>
     <attributes name="wp81spackagenamekey" value="NewsNWeather"/>
@@ -85,7 +85,6 @@
     <attributes name="proximity" value="false"/>
     <attributes name="ID_REQ_FRONTCAMERA" value="false"/>
     <attributes name="apmorientationchange" value="false"/>
-    <attributes name="desktopwebresizecontent" value="false"/>
     <attributes name="win8packagedisplaynamekey" value="NewsNWeather"/>
     <attributes name="spawindowstabbasefontsize" value="17"/>
     <attributes name="MANAGE_ACCOUNTS" value="false"/>
@@ -142,7 +141,7 @@
     <attributes name="UseSQLCipherFIPS" value="false"/>
     <attributes name="win8lockscreennotificationskey" value="Not set"/>
     <attributes name="win8versionmajorkey" value="1"/>
-    <attributes name="andapplicationtags" value=""/>
+    <attributes name="andapplicationtags" value="&lt;meta-data android:name=&quot;com.google.android.gms.version&quot; android:value=&quot;@integer/google_play_services_version&quot;  /&gt;"/>
     <attributes name="ioscheckboxcorrection" value="true"/>
     <attributes name="exceptionalert" value="true"/>
     <attributes name="windows10guid" value=""/>
@@ -233,10 +232,10 @@
     <attributes name="win8publisherdisplaynamekey" value="KonyLabs"/>
     <attributes name="WP8_ID_CAP_CONTACTS" value="true"/>
     <attributes name="Location" value="true"/>
-    <attributes name="cloud_env_GUID" value="8cde505e-a30c-464a-93d4-4336702b4f6d"/>
+    <attributes name="cloud_env_GUID" value="f624671f-9244-42e8-a143-809a3e0e7aaf"/>
     <attributes name="manifest_tag_attrs" value=""/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="7.0.0.GA_v201602242322"/>
+    <attributes name="currentgaversion" value="7.0.1.GA_v201604262011"/>
     <attributes name="mwhttpsportkey" value="443"/>
     <attributes name="pathkey" value=""/>
     <attributes name="vendornamekey" value="KonyLabs"/>
@@ -276,7 +275,7 @@
     <attributes name="apploadeventkey" value="None"/>
     <attributes name="CALL_PHONE" value="false"/>
     <attributes name="INSTALL_PACKAGES" value="false"/>
-    <attributes name="usegoogleplaylocationservices" value="false"/>
+    <attributes name="usegoogleplaylocationservices" value="true"/>
     <attributes name="codeGeneration" value="false"/>
     <attributes name="tcbb320basefontsize" value="15"/>
     <attributes name="userAccountInformation" value="false"/>
@@ -340,7 +339,7 @@
     <attributes name="enablepushnotifications" value="false"/>
     <attributes name="USE_SIP" value="false"/>
     <attributes name="secondarytilefunctionkey" value="None"/>
-    <attributes name="ACCESS_FINE_LOCATION" value="false"/>
+    <attributes name="ACCESS_FINE_LOCATION" value="true"/>
     <attributes name="spaandroidtab1280basefontsize" value="16"/>
     <attributes name="READ_INPUT_STATE" value="false"/>
     <attributes name="voipCall" value="false"/>
@@ -374,11 +373,11 @@
     <attributes name="access_pimdomain_contacts" value="false"/>
     <attributes name="apmformExit" value="false"/>
     <attributes name="CHANGE_WIFI_MULTICAST_STATE" value="false"/>
-    <attributes name="cloud_url" value="https://acme-inc.konycloud.com"/>
+    <attributes name="cloud_url" value="https://mobilefabric-demo.konycloud.com"/>
     <attributes name="certs_key_store_pwd" value="kds/0eUc+i3BqFqSkpCk4g=="/>
     <attributes name="CALL_PRIVILEGED" value="false"/>
     <attributes name="SUBSCRIBED_FEEDS_READ" value="false"/>
-    <attributes name="supportX86Devices" value="false"/>
+    <attributes name="supportX86Devices" value="true"/>
     <attributes name="antialiaseddrawing" value="false"/>
     <attributes name="sessionmanager" value="Http Session Manager"/>
     <attributes name="READ_PHONE_STATE" value="true"/>
@@ -462,7 +461,7 @@
     <attributes name="apmerrorunhandledexception" value="true"/>
     <attributes name="tcandroid320basefontsize" value="12"/>
     <attributes name="BROADCAST_SMS" value="false"/>
-    <attributes name="cloud_env_name" value="ACME-AcmeInc"/>
+    <attributes name="cloud_env_name" value="Kony Cloud MobileFabric-MobileFabric"/>
     <attributes name="ID_REQ_REARCAMERA" value="false"/>
     <attributes name="tcandroid360basefontsize" value="13"/>
     <attributes name="win8displaynamekey" value="NewsNWeather"/>

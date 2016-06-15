@@ -26,7 +26,7 @@
     "_text_": "Local News",
     "_top_": {
         "type": "string",
-        "value": "32%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
@@ -57,7 +57,7 @@
     "isvisible": true,
     "kuid": "1d4be66e18994d41ba624240d47972d9",
     "name": "kony.ui.Label",
-    "parent": "frmWeather",
+    "parent": "flxNewsContainer",
     "pf": "frmWeather",
     "tooltip": "",
     "wType": "Label",

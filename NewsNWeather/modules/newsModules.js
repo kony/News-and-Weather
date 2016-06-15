@@ -71,8 +71,8 @@ function getNews(category){
 			kony.application.showLoadingScreen("sknLoading","Please wait...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,{shouldShowLabelInBottom :true,separatorHeight:30});
 		else
 			kony.application.showLoadingScreen("sknLoading","Please wait...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,null);
-		intgService = client.getIntegrationService(MBaaSConfig.NEWS_SERVICE_NAME);//Accounts is service name and accountsClient is Accounts integration service instance
-		intgService.invokeOperation(MBaaSConfig.NEWS_OPERATION_NAME,{},{"category":category}, integSuccessCallback, integFailureCallback);
+		intgService = client.getIntegrationService(configObject.services.news.SERVICE_NAME);//Accounts is service name and accountsClient is Accounts integration service instance
+		intgService.invokeOperation(configObject.services.news.OPERATION_NAME,{},{"category":category}, integSuccessCallback, integFailureCallback);
 	 }catch(excp){
 	 	 kony.application.dismissLoadingScreen();
 	 	kony.print(JSON.stringify(excp));
@@ -218,8 +218,7 @@ function destroyForm(){
 *	Purpose : To get the weather forecast with news data.
 ****************************************************************
 */
-function getWeatherForecast(){
-	function integSuccessCallback(response)
+function weatherIntegSuccessCallback1(response)
 	{
 		var weatherList=[];
 		//response=JSON.parse(response);
@@ -298,21 +297,127 @@ function getWeatherForecast(){
 		frmWeather.show();
 		kony.application.dismissLoadingScreen();
 	}
+
+//****************************************
+function weatherIntegSuccessCallback(response) {
+    kony.print("local response:-" + JSON.stringify(response));
+	var foreCastList=response["ForecastList"];	
+	var city=response["city"];
+	var newsList=response["news_list"];
+	var state=response["state"];
+	var temperature=response["temp"];
+	var zipCode=response["zip"];
+	var day;
+	var minTemp,maxTemp;
+	var imgUrl;
+	var lblDay="lblDay";
+	var imgCloud;
+	var lblMinTemp,lblMaxTemp;
+	kony.print("local foreCastList:-" + JSON.stringify(foreCastList));
+	kony.print("local city:-" +city );
+	kony.print("local newsList:-" + JSON.stringify(newsList));
+	kony.print("local state:-" +state );
+	kony.print("local temperature:-" +temperature );
+	kony.print("local zipCode:-" +zipCode );
+    frmWeather.lblFrmWeatherTitle.text = city+ "," +state;
+    kony.application.dismissLoadingScreen();
+	for(var i=0;i<7;i++){
+		day=foreCastList[i];
+// 		minTemp=((day["low"]-273.5).toFixed(2))+"°C";
+// 		maxTemp=((day["high"]-273.5).toFixed(2))+"°C";
+      minTemp=day["low"];
+      maxTemp=day["high"];
+		//imgUrl="http://openweathermap.org/img/w/"+day["weather"][0]["icon"]+".png";
+		lblDay="lblDay"+(i+1);
+		imgCloud="imgCloud"+(i+1);
+		lblMinTemp="lblMinTemp"+(i+1);
+		lblMaxTemp="lblMaxTemp"+(i+1);
+		imgUrl=getWeatherImage(day["desc"]);
+		frmWeather[lblDay].text=days[(weekDay+i)%7];
+		frmWeather[imgCloud].src=imgUrl;
+		frmWeather[lblMinTemp].text=minTemp;
+		frmWeather[lblMaxTemp].text=maxTemp;
+		kony.print("\n"+i+" day-"+JSON.stringify(day));
+		//frmWeather.show();
+	}
+  //setting news data...
+  newsList=[];
+  if(kony.os.deviceInfo().name==="android")
+  			jsonResponse=response;
+  		else
+			jsonResponse=response;
+	var len=jsonResponse["news_list"].length;
+	var description,descriptionArray;
+	var imgSrc;
+	var news={};
+	var start,end,descLen;
+	kony.print("\n-----clear----\n");
+	for(var i=0;i<len;i++)
+	{
+		news={};
+		kony.print(i+".\n"+JSON.stringify(jsonResponse["news_list"][i]));
+		news.lblTitle={"text":(jsonResponse["news_list"][i]["news_item"]["title"]).substring(0,25)+".."};
+		description=jsonResponse["news_list"][i]["news_item"]["description"];
+		kony.print("\n---full description--\n"+description);
+		start=description.search('img src="//');
+		end=start+10;
+		kony.print("\n--start-->"+start);
+		while(description[end]!='"'){
+			end++;
+		}
+		imgSrc=description.substring(start+9,end);
+		imgSrc="http:"+imgSrc;
+		kony.print("\n--image src--\n"+imgSrc);
+		news.imgNews={"src":imgSrc,"skin":"sknKonyImg"};
+		descriptionArray=description.split("<font size=\"-1\">");
+		kony.print("\ndescription-->"+descriptionArray[2]);
+		descLen=descriptionArray[2].length;
+		if(descLen>120)
+			descLen=120;
+		description=descriptionArray[2].substring(0,descLen)+"..";
+		news.richTextDesc={"text":description};
+		newsList.push(news);
+		kony.print("\n--link-->"+JSON.stringify(jsonResponse["news_list"][i]["news_item"]["link"]));
+		kony.print("\n--desc after spliting--\n"+descriptionArray[1]);
+	}
+	kony.print("\n-----clear----\n");
+	frmWeather.segmentNews.setData(newsList);
+  	frmWeather.show();
+}
+
+
+
+function getWeatherImage (desc) {
+  switch(desc) {
+	case "Partly Cloudy":
+		return "weather3.png";
+		break;
+	case "Mostly Cloudy":
+		return "weather5.png";
+		break;
+	case "Sunny":
+		return "weather4.png";
+		break;
+	}
+}
+//***************************************************
+function getWeatherForecast(){
+	
 	function integFailureCallback(error){
 		kony.print("\n in failure:-"+JSON.stringify(error));
 		kony.application.dismissLoadingScreen();
 	}
 	frmWeather.segmentNews.removeAll();
-	newsList=[];
+	
 	try{
 		//Making MBaaS client instance to invoke getIntegrationService method.
 	if(kony.os.deviceInfo().name == "iPhone" ||kony.os.deviceInfo().name == "iPhone Simulator" ||  kony.os.deviceInfo().name == "iPad"  )
 		kony.application.showLoadingScreen("sknLoading","Please wait...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,{shouldShowLabelInBottom :true,separatorHeight:30});
 	else
 		kony.application.showLoadingScreen("sknLoading","Please wait...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,null);
-		accountsClient = client.getIntegrationService("NewsNForecast");//Accounts is service name and accountsClient is Accounts integration service instance
+		accountsClient = client.getIntegrationService(configObject.services.local.SERVICE_NAME);//Accounts is service name and accountsClient is Accounts integration service instance
 		//accountsClient.invokeOperation(Accounts service name,headers,query params, SuccessCallback,FailureCallback);
-	 	accountsClient.invokeOperation("NewsNForecast",{},{"lat":lat.toString(),"lon":lon.toString()}, integSuccessCallback, integFailureCallback);
+	 	accountsClient.invokeOperation(configObject.services.local.OPERATION_NAME,{},{"lat":lat.toString(),"lon":lon.toString()}, weatherIntegSuccessCallback, integFailureCallback);
 	 }catch(excp){
 	 		kony.application.dismissLoadingScreen();
 	 		kony.print(JSON.stringify(excp));

@@ -25,11 +25,8 @@
     "canUpdateUI": true,
     "children": [
         "frmLocalHeader",
-        "lblFrmWeatherTitle",
-        "flxcScrlWthr",
-        "lblLocalNews",
-        "segmentNews",
-        "btnMenu"
+        "btnMenu",
+        "flxNewsContainer"
     ],
     "containerweight": 100,
     "currentLocale": null,

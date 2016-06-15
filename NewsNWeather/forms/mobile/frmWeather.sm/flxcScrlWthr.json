@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "20%"
+        "value": "120dp"
     },
     "_left_": {
         "type": "string",
@@ -26,7 +26,7 @@
     "_skin_": "s89e60cb3df6448cbd6c8e819496ff5d",
     "_top_": {
         "type": "string",
-        "value": "12%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
@@ -59,7 +59,7 @@
     "layouttype": 2,
     "name": "kony.ui.FlexScrollContainer",
     "pagingenabled": false,
-    "parent": "frmWeather",
+    "parent": "flxNewsContainer",
     "pf": "frmWeather",
     "scrolldirection": 1,
     "snapgridsize": 10,
