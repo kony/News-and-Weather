@@ -1,0 +1,23 @@
+{
+    "AS_Form_1d532de9e8c541e78f49cea8240e1973": {
+        "id": "AS_Form_1d532de9e8c541e78f49cea8240e1973",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNews",
+            "type": "forms",
+            "platform": "",
+            "KUID": "1a5bbffa97404c958035782cad0d55b1"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__15375a11e6644d479f9ce9ae06cb8745",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.exit();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

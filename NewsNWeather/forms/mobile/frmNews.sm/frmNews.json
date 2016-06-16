@@ -28,6 +28,7 @@
         "displayOrientation": 1,
         "footerOverlap": false,
         "headerOverlap": false,
+        "ide_onDeviceBack": "AS_Form_1d532de9e8c541e78f49cea8240e1973",
         "inTransitionConfig": {
             "formAnimation": 0
         },

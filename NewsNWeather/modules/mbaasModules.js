@@ -13,7 +13,7 @@ var saveUser;
 function initMbaas() 
 {
   	saveUser=false;
-  kony.print("\n---in init mbaas----\n");
+  	kony.print("\n---in init mbaas----\n");
 	d = new Date();
 	weekDay=d.getDay();
 	days = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
@@ -21,11 +21,13 @@ function initMbaas()
 	function initSuccessCallBack(res)//res is of type JSON and which will have MBaaS application configuration. 
 	{
 		kony.print("\n----in init success-----\n");
-      	frmLogin.txtBoxUserName.text=MBaaSConfig.userId;
-      	frmLogin.txtBoxPassword.text=MBaaSConfig.password;
+      	//frmLogin.txtBoxUserName.text=MBaaSConfig.userId;
+      	//frmLogin.txtBoxPassword.text=MBaaSConfig.password;
       	getNews("h");
+      	frmSplash.destroy();
+      	frmNews.show();
       	//frmLogin.show();
-		kony.application.dismissLoadingScreen();
+		//kony.application.dismissLoadingScreen();
 		firstLogin=true;
 	}
   	function initFailureCallBack(error)
