@@ -13,6 +13,5 @@ configObject = {
 			"SERVICE_NAME" : "NewAndWeather",
 			"OPERATION_NAME" : "LocalNewsWeather"
 		}
-
 	}
 };
