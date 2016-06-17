@@ -218,7 +218,7 @@ function destroyForm(){
 *	Purpose : To get the weather forecast with news data.
 ****************************************************************
 */
-function weatherIntegSuccessCallback1(response)
+/*function weatherIntegSuccessCallback1(response)
 	{
 		var weatherList=[];
 		//response=JSON.parse(response);
@@ -297,7 +297,7 @@ function weatherIntegSuccessCallback1(response)
 		frmWeather.show();
 		kony.application.dismissLoadingScreen();
 	}
-
+*/
 //****************************************
 function weatherIntegSuccessCallback(response) {
     kony.print("local response:-" + JSON.stringify(response));
