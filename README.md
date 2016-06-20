@@ -1,5 +1,5 @@
 # News-and-Weather
-This application will showcase how to use JS MBaaS SDK to invoke identity, integration and orchestration services.
+This application will showcase the ability of an Visualizer 7.0 application to invoke the integration and orchestration services of MobileFabric  via JS MBaaS SDK. This application invokes the REST and SOAP APIs of cdyne and Google to retrieve the news ( based on a category like US, world etc) and also display the local news and local weather forecast for an input zipcode.
 
 # To run this application
 
