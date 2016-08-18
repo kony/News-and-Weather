@@ -7,8 +7,8 @@ This application will showcase the ability of an Visualizer 7.0 application to i
 2. Unzip the project to any folder
 3. Launch Kony Visualizer Enterprise version 7.0.
 4. Import the project by selecting the News-And-Weather-Master/NewsNWeather folder. This should compile the project.
-8. Open the config.js file in Visualizer ( in the Modules Folder) and modify the "keys" section to have the published application's appkey, appsecret and URL.
-9. Build & run the app.
+5. Open the config.js file in Visualizer ( in the Modules Folder) and modify the "keys" section to have the published application's appkey, appsecret and URL.
+6. Build & run the app.
 
 # Supported platforms:
 **Mobile**
